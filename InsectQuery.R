@@ -39,3 +39,23 @@ df_ladybug <- df_scanned_ladybug
 
 df_ladybug_species <- df_scanned_ladybug_species %>%
   rename(catalogNumber = SCAN.CODE)
+
+# Test cases ; ctrl+shift+c to toggle comments
+# 
+# (!any(duplicated(df_butterfly$coreId))) %>%
+#   paste0("coreId is distinct in df_butterfly: ", .)
+# 
+# (!any(duplicated(df_wings$coreId))) %>%
+#   paste0("coreId is distinct in df_wings: ", .)
+# 
+# (nrow(full_join(df_butterfly, df_wings, "coreId")) == nrow(df_butterfly)) %>%
+#   paste0("All observations in df_wings occur in df_butterfly: ", .)
+# 
+# (!any(duplicated(df_ladybug$catalogNumber))) %>%
+#   paste0("catalogNumber is distinct in df_ladybug: " , .)
+# 
+# (!any(duplicated(df_ladybug_species$catalogNumber))) %>%
+#   paste0("catalogNumber is distinct in df_ladybug_species: " , .)
+# 
+# (nrow(full_join(df_ladybug, df_ladybug_species, "catalogNumber")) == nrow(df_ladybug)) %>%
+#   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)

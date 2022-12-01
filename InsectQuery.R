@@ -1,6 +1,8 @@
 library(tidyverse)
 library(readxl)
 
+rm(list = ls())
+
 df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv")
 df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal")
 df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal")
@@ -39,3 +41,21 @@ df_ladybug <- df_scanned_ladybug
 
 df_ladybug_species <- df_scanned_ladybug_species %>%
   rename(catalogNumber = SCAN.CODE)
+
+df_ladybug = df_ladybug %>%
+  mutate(dateScanned = as.Date(eventDate, "%m/%d/%Y"))
+
+#Selecting & Pivoting Columns from df_ladybug that we will use for our analysis 
+df_pivoted_ladybug <- df_ladybug %>%
+  select(catalogNumber, genus, specificEpithet, dateScanned, country, stateProvince, county) %>%
+  group_by(catalogNumber)
+
+#Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
+df_pivoted_ladybug_species <- df_ladybug_species %>%
+  select(catalogNumber, Species, coordinates) %>%
+  group_by(catalogNumber)
+
+#Joining the df_ladybug & df_ladybug_species pivot tables 
+df_joined_ladybug_pivot_tables <- df_pivoted_ladybug %>%
+  left_join(df_pivoted_ladybug_species, by = c("catalogNumber")) 
+  

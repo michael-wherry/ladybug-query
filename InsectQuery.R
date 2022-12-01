@@ -1,12 +1,13 @@
 library(tidyverse)
 library(readxl)
+library(mapview)
 
 df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv")
 df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal")
 df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal")
 df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal")
 
-#renaming all columns to camelCase for consistency
+# Renaming all columns to camelCase for consistency
 
 df_butterfly <- df_scanned_butterfly %>%
   rename_with(~ sub("(?:dwc.:?)?(.)", "\\L\\1", .x, perl = TRUE)) %>%
@@ -39,6 +40,26 @@ df_ladybug <- df_scanned_ladybug
 
 df_ladybug_species <- df_scanned_ladybug_species %>%
   rename(catalogNumber = SCAN.CODE)
+
+df_butter_location <- df_butterfly %>%
+  select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
+  mutate(latitude = coalesce(decimalLatitude, as.numeric(decimalLatitudeUpdated))) %>%
+  mutate(longitude = coalesce(decimalLongitude, as.numeric(decimalLongitudeUpdated))) %>%
+  select(coreId, latitude, longitude)
+
+df_butter_date <- df_butterfly %>%
+  select(coreId, year, yearUpdated, month, day, dayOfYearUpdated, startDayofYearUpdated, endDayofYearUpdated) %>%
+  mutate(avgDayOfYear = floor(rowMeans(cbind(startDayofYearUpdated, endDayofYearUpdated)))) %>%
+  mutate(dayOfYear = coalesce(dayOfYearUpdated, avgDayOfYear)) %>%
+  mutate(mergedYear = coalesce(as.character(yearUpdated), year)) %>%
+  mutate(monthFromDayOfYear = lubridate::month(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
+  mutate(dayFromDayOfYear = lubridate::day(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
+  mutate(mergedMonth = coalesce(monthFromDayOfYear, month)) %>%
+  mutate(mergedDay = coalesce(as.character(dayFromDayOfYear), day)) %>%
+  mutate(date =  as.Date(paste(mergedYear, mergedMonth, mergedDay, sep = "/")))
+  
+df_butter_date <- df_butter_date %>%
+  select(coreId, date) # still missing a small handful of dates
 
 # Test cases ; ctrl+shift+c to toggle comments
 # 

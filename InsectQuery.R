@@ -1,5 +1,6 @@
 library(tidyverse)
 library(readxl)
+library(mapview)
 
 rm(list = ls())
 
@@ -8,7 +9,7 @@ df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair =
 df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal")
 df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal")
 
-#renaming all columns to camelCase for consistency
+# Renaming all columns to camelCase for consistency
 
 df_butterfly <- df_scanned_butterfly %>%
   rename_with(~ sub("(?:dwc.:?)?(.)", "\\L\\1", .x, perl = TRUE)) %>%
@@ -26,7 +27,6 @@ df_butterfly <- df_scanned_butterfly %>%
   rename(posteriorSpotRW = rPosteriorSpotCu2) %>%
   rename(interspotRW = rInterspotPA)
   
-
 df_wings <- df_scanned_wings %>%
   rename(coreId = core.ID) %>%
   rename(lengthLW = LW.length) %>%
@@ -59,3 +59,43 @@ df_pivoted_ladybug_species <- df_ladybug_species %>%
 df_joined_ladybug_pivot_tables <- df_pivoted_ladybug %>%
   left_join(df_pivoted_ladybug_species, by = c("catalogNumber")) 
   
+df_butter_location <- df_butterfly %>%
+  select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
+  mutate(latitude = coalesce(decimalLatitude, as.numeric(decimalLatitudeUpdated))) %>%
+  mutate(longitude = coalesce(decimalLongitude, as.numeric(decimalLongitudeUpdated))) %>%
+  select(coreId, latitude, longitude)
+
+df_butter_date <- df_butterfly %>%
+  select(coreId, year, yearUpdated, month, day, dayOfYearUpdated, startDayofYearUpdated, endDayofYearUpdated) %>%
+  mutate(avgDayOfYear = floor(rowMeans(cbind(startDayofYearUpdated, endDayofYearUpdated)))) %>%
+  mutate(dayOfYear = coalesce(dayOfYearUpdated, avgDayOfYear)) %>%
+  mutate(mergedYear = coalesce(as.character(yearUpdated), year)) %>%
+  mutate(monthFromDayOfYear = lubridate::month(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
+  mutate(dayFromDayOfYear = lubridate::day(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
+  mutate(mergedMonth = coalesce(monthFromDayOfYear, month)) %>%
+  mutate(mergedDay = coalesce(as.character(dayFromDayOfYear), day)) %>%
+  mutate(date =  as.Date(paste(mergedYear, mergedMonth, mergedDay, sep = "/")))
+  
+df_butter_date <- df_butter_date %>%
+  select(coreId, date) # still missing a small handful of dates
+
+# Test cases ; ctrl+shift+c to toggle comments
+# 
+# (!any(duplicated(df_butterfly$coreId))) %>%
+#   paste0("coreId is distinct in df_butterfly: ", .)
+# 
+# (!any(duplicated(df_wings$coreId))) %>%
+#   paste0("coreId is distinct in df_wings: ", .)
+# 
+# (nrow(full_join(df_butterfly, df_wings, "coreId")) == nrow(df_butterfly)) %>%
+#   paste0("All observations in df_wings occur in df_butterfly: ", .)
+# 
+# (!any(duplicated(df_ladybug$catalogNumber))) %>%
+#   paste0("catalogNumber is distinct in df_ladybug: " , .)
+# 
+# (!any(duplicated(df_ladybug_species$catalogNumber))) %>%
+#   paste0("catalogNumber is distinct in df_ladybug_species: " , .)
+# 
+# (nrow(full_join(df_ladybug, df_ladybug_species, "catalogNumber")) == nrow(df_ladybug)) %>%
+#   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)
+

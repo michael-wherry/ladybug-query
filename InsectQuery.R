@@ -1,13 +1,14 @@
 library(tidyverse)
 library(readxl)
-library(mapview)
+library(usmap)
+library(magrittr)
 
 rm(list = ls())
 
-df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv")
-df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal")
-df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal")
-df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal")
+df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv",na.strings = c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN"))
+df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A","NA","UNKNOWN")) 
+df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A", "NA","UNKNOWN"))
+df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A","NA","UNKNOWN"))
 
 # Renaming all columns to camelCase for consistency
 
@@ -45,19 +46,25 @@ df_ladybug_species <- df_scanned_ladybug_species %>%
 df_ladybug = df_ladybug %>%
   mutate(dateScanned = as.Date(eventDate, "%m/%d/%Y"))
 
-#Selecting & Pivoting Columns from df_ladybug that we will use for our analysis 
-df_pivoted_ladybug <- df_ladybug %>%
+
+#Selecting Columns from df_ladybug that we will use for our analysis 
+str_to_title(df_ladybug$genus)
+str_to_title(df_ladybug$specificEpithet)
+df_clean_ladybug <- df_ladybug %>%
   select(catalogNumber, genus, specificEpithet, dateScanned, country, stateProvince, county) %>%
-  group_by(catalogNumber)
-
-#Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
-df_pivoted_ladybug_species <- df_ladybug_species %>%
+  filter(startsWith(tolower(country), "u")) %>%
+  mutate(country = "United States") %>%
+  mutate(county = if_else(county == "Rcok Island", "Rock Island", county)) %>%
+  filter(county != "") %>%
+  mutate(species = paste(genus, specificEpithet, sep = " ")) %>%
+  mutate(species = ifelse(species == "NA NA", NA_character_, species)) %>%
+  mutate(species = as.factor(species))
+  
+ #Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
+df_clean_ladybug_species <- df_ladybug_species %>%
   select(catalogNumber, Species, coordinates) %>%
-  group_by(catalogNumber)
-
-#Joining the df_ladybug & df_ladybug_species pivot tables 
-df_joined_ladybug_pivot_tables <- df_pivoted_ladybug %>%
-  left_join(df_pivoted_ladybug_species, by = c("catalogNumber")) 
+  mutate(longitude = substr(coordinates, 0, regexpr("-", coordinates)-1)) %>%
+  mutate(latitude = substr(coordinates, regexpr("-", coordinates)+1, length(coordinates)))
   
 df_butter_location <- df_butterfly %>%
   select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
@@ -99,3 +106,5 @@ df_butter_date <- df_butter_date %>%
 # (nrow(full_join(df_ladybug, df_ladybug_species, "catalogNumber")) == nrow(df_ladybug)) %>%
 #   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)
 
+write.csv(df_clean_ladybug,"Data/CleanLadyBugData.csv")
+write.csv(df_clean_ladybug_species, "Data/CleanLadyBugSpeciesData.csv")

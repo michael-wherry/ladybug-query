@@ -58,8 +58,31 @@ df_clean_ladybug <- df_ladybug %>%
   filter(county != "") %>%
   mutate(species = paste(genus, specificEpithet, sep = " ")) %>%
   mutate(species = ifelse(species == "NA NA", NA_character_, species)) %>%
-  mutate(species = as.factor(species))
-  
+  mutate(species = as.factor(species)) %>%
+  mutate(commonName = ifelse(species == "Adalia bipunctata", "Two-spot Ladybird", NA)) %>%
+  mutate(commonName = ifelse(species == "Anatis labiculata", "Fifteen-spotted Lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Anatis mali", "Eye spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Brachiacantha ursina", "Ursine Spurleg Lady Beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Chilocorus stigma", "Twice stabbed ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coccinella septempunctata", "Seven-Spot ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coccinella transversoguttata", "Transverse Ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coleomegilla maculata", "Spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Cycloneda munda", "Polished lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Cycloneda sanguinea", "Spotless ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Epargyreus clarus", "Silver spotted skipper", commonName)) %>%
+  mutate(commonName = ifelse(species == "Epilachna varivestis", "Mexican bean beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Harmonia axyridis", "Asain lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia caseyi", "Caseys lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia convergens", "Convergent lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia parenthesis", "Parentheses lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia tredecimpunctata", "Thirteen-spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia variegata", "Adonis ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hyperaspis signata", "Red-Marked ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hyperaspis undulata", "Undulate lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Olla v-nigrum", "Ashy-Gray lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Propylea quatuordecimpunctata", "Fourteen-spotted ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Psyllobora vigintimaculata", "Twenty-spotted lady beetle", commonName))
+
  #Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
 df_clean_ladybug_species <- df_ladybug_species %>%
   select(catalogNumber, Species, coordinates) %>%

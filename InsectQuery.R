@@ -4,10 +4,10 @@ library(readxl)
 rm(list = ls())
 
 na_placeholders <- c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN", "unknown")
-df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv", na.strings = na_placeholders)
-df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal", na = na_placeholders) 
-df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal", na = na_placeholders)
-df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = na_placeholders)
+df_scanned_ladybug <- read.csv("Data/Unclean/ScanLadybugData.csv", na.strings = na_placeholders)
+df_scanned_ladybug_species <- read_xlsx("Data/Unclean/Ladybug Data.xlsx", .name_repair = "universal", na = na_placeholders) 
+df_scanned_wings <- read_xlsx("Data/Unclean/Cleaned Data LWA .xlsx", .name_repair = "universal", na = na_placeholders)
+df_scanned_butterfly <- read_xlsx("Data/Unclean/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = na_placeholders)
 rm(na_placeholders)
 
 # Renaming all columns to camelCase for consistency
@@ -36,7 +36,7 @@ df_wings <- df_scanned_wings %>%
   rename(lengthRW = RW.length) %>%
   rename(widthRW = RW.width) %>%
   rename(apexRW = RW.apex.A) %>%
-  drop_na() #shouldn't have sparse entries
+  drop_na() # Shouldn't have sparse entries
 
 df_ladybug <- df_scanned_ladybug
 
@@ -47,6 +47,49 @@ rm(df_scanned_butterfly)
 rm(df_scanned_wings)
 rm(df_scanned_ladybug)
 rm(df_scanned_ladybug_species)
+
+# Ladybugs
+
+df_clean_ladybug <- df_ladybug %>%
+  select(catalogNumber, genus, specificEpithet, eventDate, country, stateProvince, county) %>%
+  mutate(eventDate = as.Date(eventDate, format = "%m/%d/%Y")) %>%
+  filter(startsWith(tolower(country), "u")) %>%
+  mutate(country = "United States") %>%
+  mutate(county = if_else(county == "Rcok Island", "Rock Island", county)) %>%
+  filter(county != "") %>%
+  mutate(species = str_to_sentence(paste(genus, specificEpithet, sep = " "))) %>%
+  mutate(species = ifelse(species == "NA NA", NA_character_, species)) %>%
+  mutate(species = as.factor(species)) %>%
+  mutate(commonName = ifelse(species == "Adalia bipunctata", "Two-spot Ladybird", NA)) %>%
+  mutate(commonName = ifelse(species == "Anatis labiculata", "Fifteen-spotted Lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Anatis mali", "Eye spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Brachiacantha ursina", "Ursine Spurleg Lady Beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Chilocorus stigma", "Twice stabbed ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coccinella septempunctata", "Seven-Spot ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coccinella transversoguttata", "Transverse Ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Coleomegilla maculata", "Spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Cycloneda munda", "Polished lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Cycloneda sanguinea", "Spotless ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Epargyreus clarus", "Silver spotted skipper", commonName)) %>%
+  mutate(commonName = ifelse(species == "Epilachna varivestis", "Mexican bean beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Harmonia axyridis", "Asain lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia caseyi", "Caseys lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia convergens", "Convergent lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia parenthesis", "Parentheses lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia tredecimpunctata", "Thirteen-spotted lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hippodamia variegata", "Adonis ladybird", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hyperaspis signata", "Red-Marked ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Hyperaspis undulata", "Undulate lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Olla v-nigrum", "Ashy-Gray lady beetle", commonName)) %>%
+  mutate(commonName = ifelse(species == "Propylea quatuordecimpunctata", "Fourteen-spotted ladybug", commonName)) %>%
+  mutate(commonName = ifelse(species == "Psyllobora vigintimaculata", "Twenty-spotted lady beetle", commonName))
+
+df_clean_ladybug_species <- df_ladybug_species %>%
+  select(catalogNumber, Species, coordinates) %>%
+  mutate(longitude = as.numeric(substr(coordinates, 0, regexpr("-", coordinates)-1))) %>%
+  mutate(latitude = as.numeric(substr(coordinates, regexpr("-", coordinates)+1, length(coordinates))))
+  
+# Butterflies
 
 df_butter_location <- df_butterfly %>%
   select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
@@ -67,7 +110,7 @@ df_butter_date <- df_butterfly %>%
 
 df_butter_date <- df_butter_date %>%
   select(coreId, date, mergedYear) %>%
-  rename(year = mergedYear) # still missing a small handful of dates
+  rename(year = mergedYear) # Still missing a small handful of dates
 
 df_butter_stats <- df_butterfly %>%
   select(coreId, sexUpdated,
@@ -84,7 +127,11 @@ df_clean_butter <- df_butter_date %>%
   left_join(df_butter_stats, by = "coreId") %>%
   left_join(df_butter_location, by = "coreId")
 
-# Test cases ; ctrl+shift+c to toggle comments
+write.csv(df_clean_ladybug,"Data/Clean/Ladybug.csv")
+write.csv(df_clean_ladybug_species, "Data/Clean/LadybugSpecies.csv")
+write.csv(df_clean_butter, "Data/Clean/Butterfly.csv")
+
+# Test cases
 # 
 # (!any(duplicated(df_butterfly$coreId))) %>%
 #   paste0("coreId is distinct in df_butterfly: ", .)
@@ -103,4 +150,3 @@ df_clean_butter <- df_butter_date %>%
 # 
 # (nrow(full_join(df_ladybug, df_ladybug_species, "catalogNumber")) == nrow(df_ladybug)) %>%
 #   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)
-

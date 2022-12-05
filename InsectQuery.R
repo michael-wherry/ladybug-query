@@ -1,13 +1,14 @@
 library(tidyverse)
 library(readxl)
-library(mapview)
 
 rm(list = ls())
 
-df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv")
-df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal")
-df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal")
-df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal")
+na_placeholders <- c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN", "unknown")
+df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv", na.strings = na_placeholders)
+df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal", na = na_placeholders) 
+df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal", na = na_placeholders)
+df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = na_placeholders)
+rm(na_placeholders)
 
 # Renaming all columns to camelCase for consistency
 
@@ -26,7 +27,7 @@ df_butterfly <- df_scanned_butterfly %>%
   rename(anteriorSpotRW = rAnteriorSpotM3) %>%
   rename(posteriorSpotRW = rPosteriorSpotCu2) %>%
   rename(interspotRW = rInterspotPA)
-  
+
 df_wings <- df_scanned_wings %>%
   rename(coreId = core.ID) %>%
   rename(lengthLW = LW.length) %>%
@@ -42,23 +43,11 @@ df_ladybug <- df_scanned_ladybug
 df_ladybug_species <- df_scanned_ladybug_species %>%
   rename(catalogNumber = SCAN.CODE)
 
-df_ladybug = df_ladybug %>%
-  mutate(dateScanned = as.Date(eventDate, "%m/%d/%Y"))
+rm(df_scanned_butterfly)
+rm(df_scanned_wings)
+rm(df_scanned_ladybug)
+rm(df_scanned_ladybug_species)
 
-#Selecting & Pivoting Columns from df_ladybug that we will use for our analysis 
-df_pivoted_ladybug <- df_ladybug %>%
-  select(catalogNumber, genus, specificEpithet, dateScanned, country, stateProvince, county) %>%
-  group_by(catalogNumber)
-
-#Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
-df_pivoted_ladybug_species <- df_ladybug_species %>%
-  select(catalogNumber, Species, coordinates) %>%
-  group_by(catalogNumber)
-
-#Joining the df_ladybug & df_ladybug_species pivot tables 
-df_joined_ladybug_pivot_tables <- df_pivoted_ladybug %>%
-  left_join(df_pivoted_ladybug_species, by = c("catalogNumber")) 
-  
 df_butter_location <- df_butterfly %>%
   select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
   mutate(latitude = coalesce(decimalLatitude, as.numeric(decimalLatitudeUpdated))) %>%
@@ -69,15 +58,31 @@ df_butter_date <- df_butterfly %>%
   select(coreId, year, yearUpdated, month, day, dayOfYearUpdated, startDayofYearUpdated, endDayofYearUpdated) %>%
   mutate(avgDayOfYear = floor(rowMeans(cbind(startDayofYearUpdated, endDayofYearUpdated)))) %>%
   mutate(dayOfYear = coalesce(dayOfYearUpdated, avgDayOfYear)) %>%
-  mutate(mergedYear = coalesce(as.character(yearUpdated), year)) %>%
+  mutate(mergedYear = coalesce(gsub("![0-9]", "", year), as.character(yearUpdated))) %>%
   mutate(monthFromDayOfYear = lubridate::month(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
   mutate(dayFromDayOfYear = lubridate::day(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
   mutate(mergedMonth = coalesce(monthFromDayOfYear, month)) %>%
   mutate(mergedDay = coalesce(as.character(dayFromDayOfYear), day)) %>%
   mutate(date =  as.Date(paste(mergedYear, mergedMonth, mergedDay, sep = "/")))
-  
+
 df_butter_date <- df_butter_date %>%
-  select(coreId, date) # still missing a small handful of dates
+  select(coreId, date, mergedYear) %>%
+  rename(year = mergedYear) # still missing a small handful of dates
+
+df_butter_stats <- df_butterfly %>%
+  select(coreId, sexUpdated,
+         lengthLW, widthLW, apexLW, posteriorSpotLW, anteriorSpotLW, interspotLW,
+         lengthRW, widthRW, apexRW, posteriorSpotRW, anteriorSpotRW, interspotRW) %>%
+  mutate(across(!c(coreId, sexUpdated, interspotLW, interspotRW), ~as.numeric(.x))) %>%
+  left_join(df_wings) %>%
+  mutate(sex = coalesce(sex, sexUpdated)) %>%
+  mutate(sex = gsub("(?=f|F)[^\\?]*", "female", sex, perl = TRUE)) %>%
+  mutate(sex = gsub("(?=m|M)[^\\?]*", "male", sex, perl = TRUE)) %>% 
+  select(!sexUpdated)
+
+df_clean_butter <- df_butter_date %>%
+  left_join(df_butter_stats, by = "coreId") %>%
+  left_join(df_butter_location, by = "coreId")
 
 # Test cases ; ctrl+shift+c to toggle comments
 # 

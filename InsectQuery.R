@@ -41,7 +41,8 @@ df_wings <- df_scanned_wings %>%
 df_ladybug <- df_scanned_ladybug
 
 df_ladybug_species <- df_scanned_ladybug_species %>%
-  rename(catalogNumber = SCAN.CODE)
+  rename(catalogNumber = SCAN.CODE) %>%
+  rename(plotType = plot)
 
 df_ladybug = df_ladybug %>%
   mutate(dateScanned = as.Date(eventDate, "%m/%d/%Y"))
@@ -57,9 +58,9 @@ df_clean_ladybug <- df_ladybug %>%
   mutate(county = if_else(county == "Rcok Island", "Rock Island", county)) %>%
   filter(county != "") %>%
   mutate(species = paste(genus, specificEpithet, sep = " ")) %>%
-  mutate(species = ifelse(species == "NA NA", NA_character_, species)) %>%
+  mutate(species = ifelse(species == "NA NA", "Unknown", species)) %>%
   mutate(species = as.factor(species)) %>%
-  mutate(commonName = ifelse(species == "Adalia bipunctata", "Two-spot Ladybird", NA)) %>%
+  mutate(commonName = ifelse(species == "Adalia bipunctata", "Two-spot Ladybird", "Unknown")) %>%
   mutate(commonName = ifelse(species == "Anatis labiculata", "Fifteen-spotted Lady beetle", commonName)) %>%
   mutate(commonName = ifelse(species == "Anatis mali", "Eye spotted lady beetle", commonName)) %>%
   mutate(commonName = ifelse(species == "Brachiacantha ursina", "Ursine Spurleg Lady Beetle", commonName)) %>%
@@ -85,7 +86,9 @@ df_clean_ladybug <- df_ladybug %>%
 
  #Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
 df_clean_ladybug_species <- df_ladybug_species %>%
-  select(catalogNumber, Species, coordinates) %>%
+  select(catalogNumber, Species, coordinates, plotType) %>%
+  mutate(plotType =substr(plotType, 0, regexpr("-", plotType)+2)) %>%
+  mutate(ifelse(plotType == "Lp-PR", "LP-PR", plotType))
   mutate(longitude = substr(coordinates, 0, regexpr("-", coordinates)-1)) %>%
   mutate(latitude = substr(coordinates, regexpr("-", coordinates)+1, length(coordinates)))
   
@@ -131,3 +134,4 @@ df_butter_date <- df_butter_date %>%
 
 write.csv(df_clean_ladybug,"Data/CleanLadyBugData.csv")
 write.csv(df_clean_ladybug_species, "Data/CleanLadyBugSpeciesData.csv")
+

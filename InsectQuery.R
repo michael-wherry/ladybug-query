@@ -1,14 +1,14 @@
 library(tidyverse)
 library(readxl)
-library(usmap)
-library(magrittr)
 
 rm(list = ls())
 
-df_scanned_ladybug <- read.csv("Data/ScanLadybugData.csv",na.strings = c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN"))
-df_scanned_ladybug_species <- read_xlsx("Data/Ladybug Data.xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A","NA","UNKNOWN")) 
-df_scanned_wings <- read_xlsx("Data/Cleaned Data LWA .xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A", "NA","UNKNOWN"))
-df_scanned_butterfly <- read_xlsx("Data/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = c("", "//s+","N/A", "n/a","N/a", "n/A","NA","UNKNOWN"))
+na_placeholders <- c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN", "unknown")
+df_scanned_ladybug <- read.csv("Data/Unclean/ScanLadybugData.csv", na.strings = na_placeholders)
+df_scanned_ladybug_species <- read_xlsx("Data/Unclean/Ladybug Data.xlsx", .name_repair = "universal", na = na_placeholders) 
+df_scanned_wings <- read_xlsx("Data/Unclean/Cleaned Data LWA .xlsx", .name_repair = "universal", na = na_placeholders)
+df_scanned_butterfly <- read_xlsx("Data/Unclean/CompletePierisData_2022-03-09.xlsx", .name_repair = "universal", na = na_placeholders)
+rm(na_placeholders)
 
 # Renaming all columns to camelCase for consistency
 
@@ -27,7 +27,7 @@ df_butterfly <- df_scanned_butterfly %>%
   rename(anteriorSpotRW = rAnteriorSpotM3) %>%
   rename(posteriorSpotRW = rPosteriorSpotCu2) %>%
   rename(interspotRW = rInterspotPA)
-  
+
 df_wings <- df_scanned_wings %>%
   rename(coreId = core.ID) %>%
   rename(lengthLW = LW.length) %>%
@@ -36,7 +36,7 @@ df_wings <- df_scanned_wings %>%
   rename(lengthRW = RW.length) %>%
   rename(widthRW = RW.width) %>%
   rename(apexRW = RW.apex.A) %>%
-  drop_na() #shouldn't have sparse entries
+  drop_na() # Shouldn't have sparse entries
 
 df_ladybug <- df_scanned_ladybug
 
@@ -44,21 +44,24 @@ df_ladybug_species <- df_scanned_ladybug_species %>%
   rename(catalogNumber = SCAN.CODE) %>%
   rename(plotType = plot)
 
-df_ladybug = df_ladybug %>%
-  mutate(dateScanned = as.Date(eventDate, "%m/%d/%Y"))
+rm(df_scanned_butterfly)
+rm(df_scanned_wings)
+rm(df_scanned_ladybug)
+rm(df_scanned_ladybug_species)
 
+# Ladybugs
 
-#Selecting Columns from df_ladybug that we will use for our analysis 
-str_to_title(df_ladybug$genus)
-str_to_title(df_ladybug$specificEpithet)
 df_clean_ladybug <- df_ladybug %>%
-  select(catalogNumber, genus, specificEpithet, dateScanned, country, stateProvince, county) %>%
+  select(catalogNumber, genus, specificEpithet, eventDate, country, stateProvince, county) %>%
+  mutate(eventDate = as.Date(eventDate, format = "%m/%d/%Y")) %>%
   filter(startsWith(tolower(country), "u")) %>%
   mutate(country = "United States") %>%
   mutate(county = if_else(county == "Rcok Island", "Rock Island", county)) %>%
   filter(county != "") %>%
   mutate(species = paste(genus, specificEpithet, sep = " ")) %>%
   mutate(species = ifelse(species == "NA NA", "Unknown", species)) %>%
+  mutate(species = str_to_sentence(paste(genus, specificEpithet, sep = " "))) %>%
+  mutate(species = ifelse(species == "NA NA", NA_character_, species)) %>%
   mutate(species = as.factor(species)) %>%
   mutate(commonName = ifelse(species == "Adalia bipunctata", "Two-spot Ladybird", "Unknown")) %>%
   mutate(commonName = ifelse(species == "Anatis labiculata", "Fifteen-spotted Lady beetle", commonName)) %>%
@@ -84,14 +87,14 @@ df_clean_ladybug <- df_ladybug %>%
   mutate(commonName = ifelse(species == "Propylea quatuordecimpunctata", "Fourteen-spotted ladybug", commonName)) %>%
   mutate(commonName = ifelse(species == "Psyllobora vigintimaculata", "Twenty-spotted lady beetle", commonName))
 
- #Selecting & Pivoting Columns from df_ladybug_species that we will use for our analysis
 df_clean_ladybug_species <- df_ladybug_species %>%
   select(catalogNumber, Species, coordinates, plotType) %>%
   mutate(plotType =substr(plotType, 0, regexpr("-", plotType)+2)) %>%
   mutate(ifelse(plotType == "Lp-PR", "LP-PR", plotType))
-  mutate(longitude = substr(coordinates, 0, regexpr("-", coordinates)-1)) %>%
-  mutate(latitude = substr(coordinates, regexpr("-", coordinates)+1, length(coordinates)))
+
   
+# Butterflies
+
 df_butter_location <- df_butterfly %>%
   select(coreId, decimalLatitude, decimalLatitudeUpdated, decimalLongitude, decimalLongitudeUpdated) %>%
   mutate(latitude = coalesce(decimalLatitude, as.numeric(decimalLatitudeUpdated))) %>%
@@ -102,17 +105,37 @@ df_butter_date <- df_butterfly %>%
   select(coreId, year, yearUpdated, month, day, dayOfYearUpdated, startDayofYearUpdated, endDayofYearUpdated) %>%
   mutate(avgDayOfYear = floor(rowMeans(cbind(startDayofYearUpdated, endDayofYearUpdated)))) %>%
   mutate(dayOfYear = coalesce(dayOfYearUpdated, avgDayOfYear)) %>%
-  mutate(mergedYear = coalesce(as.character(yearUpdated), year)) %>%
+  mutate(mergedYear = coalesce(gsub("![0-9]", "", year), as.character(yearUpdated))) %>%
   mutate(monthFromDayOfYear = lubridate::month(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
   mutate(dayFromDayOfYear = lubridate::day(as.Date(dayOfYear, origin = paste0(mergedYear, "-01-01")))) %>%
   mutate(mergedMonth = coalesce(monthFromDayOfYear, month)) %>%
   mutate(mergedDay = coalesce(as.character(dayFromDayOfYear), day)) %>%
   mutate(date =  as.Date(paste(mergedYear, mergedMonth, mergedDay, sep = "/")))
-  
-df_butter_date <- df_butter_date %>%
-  select(coreId, date) # still missing a small handful of dates
 
-# Test cases ; ctrl+shift+c to toggle comments
+df_butter_date <- df_butter_date %>%
+  select(coreId, date, mergedYear) %>%
+  rename(year = mergedYear) # Still missing a small handful of dates
+
+df_butter_stats <- df_butterfly %>%
+  select(coreId, sexUpdated,
+         lengthLW, widthLW, apexLW, posteriorSpotLW, anteriorSpotLW, interspotLW,
+         lengthRW, widthRW, apexRW, posteriorSpotRW, anteriorSpotRW, interspotRW) %>%
+  mutate(across(!c(coreId, sexUpdated, interspotLW, interspotRW), ~as.numeric(.x))) %>%
+  left_join(df_wings) %>%
+  mutate(sex = coalesce(sex, sexUpdated)) %>%
+  mutate(sex = gsub("(?=f|F)[^\\?]*", "female", sex, perl = TRUE)) %>%
+  mutate(sex = gsub("(?=m|M)[^\\?]*", "male", sex, perl = TRUE)) %>% 
+  select(!sexUpdated)
+
+df_clean_butter <- df_butter_date %>%
+  left_join(df_butter_stats, by = "coreId") %>%
+  left_join(df_butter_location, by = "coreId")
+
+write.csv(df_clean_ladybug,"Data/Clean/Ladybug.csv")
+write.csv(df_clean_ladybug_species, "Data/Clean/LadybugSpecies.csv")
+write.csv(df_clean_butter, "Data/Clean/Butterfly.csv")
+
+# Test cases
 # 
 # (!any(duplicated(df_butterfly$coreId))) %>%
 #   paste0("coreId is distinct in df_butterfly: ", .)
@@ -135,3 +158,4 @@ df_butter_date <- df_butter_date %>%
 write.csv(df_clean_ladybug,"Data/CleanLadyBugData.csv")
 write.csv(df_clean_ladybug_species, "Data/CleanLadyBugSpeciesData.csv")
 
+#   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)

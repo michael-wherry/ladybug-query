@@ -1,637 +1,636 @@
-"","catalogNumber","genus","specificEpithet","eventDate","country","stateProvince","county","species","commonName"
-"1","AUGUENTA0000001",NA,NA,1992-10-21,"United States","IL","Rock Island","Na na","Unknown"
-"2","AUGIEENTA0000002",NA,NA,2008-08-15,"United States","IL","Rock Island","Na na","Unknown"
-"3","AUGIEENTA0000004",NA,NA,1988-09-20,"United States","IL","Rock Island","Na na","Unknown"
-"4","AUGIEENTA0000005",NA,NA,1974-10-29,"United States","IL","Rock Island","Na na","Unknown"
-"5","AUGIEENTA0000006",NA,NA,1972-10-21,"United States","IL","Rock Island","Na na","Unknown"
-"6","AUGIEENTA0000007",NA,NA,2018-08-30,"United States","IA","Scott","Na na","Unknown"
-"7","AUGIEENTA0000008",NA,NA,1997-09-20,"United States","IL","Adams","Na na","Unknown"
-"8","AUGIEENTA0000009",NA,NA,1986-09-16,"United States","IL","Rock Island","Na na","Unknown"
-"9","AUGIEENTA0000010",NA,NA,1997-09-18,"United States","IL","Rock Island","Na na","Unknown"
-"10","AUGIEENTA0000011","Chilocorus","stigma",1993-08-27,"United States","Montana","Jasper","Chilocorus stigma","Twice stabbed ladybug"
-"11","AUGIEENTA0000012","Chilocorus","stigma",1994-10-10,"United States","IL","Rock Island","Chilocorus stigma","Twice stabbed ladybug"
-"12","AUGIEENTA0000013","Chilocorus","stigma",1971-06-14,"United States","IL","Mercer","Chilocorus stigma","Twice stabbed ladybug"
-"13","AUGIEENTA0000014","Chilocorus","stigma",1970-10-02,"United States","IL","Rock Island","Chilocorus stigma","Twice stabbed ladybug"
-"14","AUGIEENTA0000015","Hippodamia","convergens",1970-07-02,"United States","Colorado","Adams","Hippodamia convergens","Convergent lady beetle"
-"15","AUGIEENTA0000016","Hippodamia","convergens",1981-07-02,"United States","Colorado","Adams","Hippodamia convergens","Convergent lady beetle"
-"16","AUGIEENTA0000017","Hippodamia","convergens",1974-10-05,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"17","AUGIEENTA0000018","Hippodamia","caseyi",1956-05-14,"United States","Kansas","Riley","Hippodamia caseyi","Caseys lady beetle"
-"18","AUGIEENTA0000019","Hippodamia","convergens",1970-10-02,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"19","AUGIEENTA0000020","Hippodamia","parenthesis",1965-08-28,"United States","IL","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"20","AUGIEENTA0000021","Hippodamia","parenthesis",1978-09-16,"United States","IL","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"21","AUGIEENTA0000022","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"22","AUGIEENTA0000023","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"23","AUGIEENTA0000024","Hippodamia","tredecimpunctata",1972-11-05,"United States","IL","Rock Island","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"24","AUGIEENTA0000025","Brachiacantha","ursina",1975-06-18,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"25","AUGIEENTA0000026","Brachiacantha","ursina",1966-06-24,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"26","AUGIEENTA0000027","Brachiacantha","ursina",1965-05-24,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"27","AUEIEENTA0000028","Brachiacantha","ursina",1965-05-04,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"28","AUGIEENTA0000029","Brachiacantha","ursina",1966-06-29,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"29","AUGIEENTA0000030","Brachiacantha","ursina",1976-09-17,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"30","AUGIEENTA0000031","Brachiacantha","ursina",1975-07-16,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"31","AUGIEENTA0000032","Brachiacantha","ursina",1986-09-23,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"32","AUGIEENTA0000033","Psyllobora","vigintimaculata",1976-05-07,"United States","IL","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"33","AUGIEENTA0000034","Psyllobora","vigintimaculata",1970-05-29,"United States","IL","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"34","AUGIEENTA0000035","Psyllobora","vigintimaculata",1970-05-09,"United States","IL","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"35","AUGIEENTA0000036",NA,NA,1970-09-18,"United States","Il","Rock Island","Na na","Unknown"
-"36","AUGIEENTA0000037","Coleomegilla","maculata",1953-04-20,"United States","Minnesota","Pine","Coleomegilla maculata","Spotted lady beetle"
-"37","AUGIEENTA0000047","Cycloneda","sanguinea",1965-05-19,"United States","Illinois","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"38","AUGIEENTA0000038","Coleomegilla","maculata",1970-10-03,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"39","AUGIEENTA0000048","Cycloneda","sanguinea",1970-06-19,"United States","Illinois","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"40","AUGIEENTA0000039","Coleomegilla","maculata",1970-10-02,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"41","AUGIEENTA0000040","Anatis","mali",1955-05-26,"United States","Minnesota","Houston","Anatis mali","Eye spotted lady beetle"
-"42","AUGIEENTA0000050","Olla","v-nigrum",1974-08-11,"United States","Illinois","Rock Island","Olla v-nigrum","Ashy-Gray lady beetle"
-"43","AUGIEENTA0000041","Anatis","labiculata",1964-05-18,"United States","IL","Rock Island","Anatis labiculata","Fifteen-spotted Lady beetle"
-"44","AUGIEENTA0000051","Olla","v-nigrum",1974-08-11,"United States","Illinois","Rock Island","Olla v-nigrum","Ashy-Gray lady beetle"
-"45","AUGIEENTA0000042","Anatis","labiculata",1955-04-16,"United States","Minnesota","Anoka","Anatis labiculata","Fifteen-spotted Lady beetle"
-"46","AUGIEENTA0000052","Olla","v-nigrum",1974-09-17,"United States","Illinois","Rock Island","Olla v-nigrum","Ashy-Gray lady beetle"
-"47","AUGIEENTA0000043","Anatis","labiculata",1955-04-20,"United States","Michigan","Pine","Anatis labiculata","Fifteen-spotted Lady beetle"
-"48","AUGIEENTA0000044","Adalia","bipunctata",1970-10-03,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"49","AUGIEENTA0000045","Adalia","bipunctata",1970-10-17,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"50","AUGIEENTA0000046","Adalia","bipunctata",1974-10-05,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"51","AUGIEENTA0000053","Coccinella","transversoguttata",1980-08-08,"United States","Minnesota","Todd","Coccinella transversoguttata","Transverse Ladybird"
-"52","AUGIEENTA0000054","Coccinella","transversoguttata",1980-08-08,"United States","Minnesota","Todd","Coccinella transversoguttata","Transverse Ladybird"
-"53","AUGIEENTA0000055","Epilachna","varivestis",1970-10-02,"United States","Illinois","Rock Island","Epilachna varivestis","Mexican bean beetle"
-"54","AUGIEENTA0000056","Epilachna","varivestis",1972-10-07,"United States","Illinois","Rock Island","Epilachna varivestis","Mexican bean beetle"
-"55","AUGIEENTA0000057","Epilachna","varivestis",1972-09-16,"United States","Illinois","Rock Island","Epilachna varivestis","Mexican bean beetle"
-"56","AUGIEENTA0000058","Hyperaspis","signata",1983-07-08,"United States","Kansas","Reno","Hyperaspis signata","Red-Marked ladybug"
-"57","AUGIEENTA0000059","Psyllobora","vigintimaculata",1980-10-30,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"58","AUGIEENTA0000060","Psyllobora","vigintimaculata",1980-10-25,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"59","AUGIEENTA0000063","Coleomegilla","maculata",1983-09-15,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"60","AUGIEENTA0000061","Psyllobora","vigintimaculata",1976-10-21,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"61","AUGIEENTA0000062","Coleomegilla","maculata",1982-09-14,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"62","AUGIEENTA0000064","Coleomegilla","maculata",2016-07-20,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"63","AUGIEENTA0000070","Coleomegilla","maculata",1980-09-03,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"64","AUGIEENTA0000069","Coleomegilla","maculata",1982-09-30,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"65","AUGIEENTA0000068","Coleomegilla","maculata",1980-11-07,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"66","AUGIEENTA0000067","Coleomegilla","maculata",1995-04-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"67","AUGIEENTA0000065","Coleomegilla","maculata",1982-09-14,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"68","AUGIEENTA0000071","Coleomegilla","maculata",1999-07-06,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"69","AUGIEENTA0000072","Coleomegilla","maculata",1980-06-12,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"70","AUGIEENTA0000073","Coleomegilla","maculata",1965-05-04,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"71","AUGIEENTA0000074","Coleomegilla","maculata",1965-05-04,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"72","AUGIEENTA0000075","Coleomegilla","maculata",1997-08-14,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"73","AUGIEENTA0000076","Coleomegilla","maculata",1999-10-10,"United States","IL","McHenry","Coleomegilla maculata","Spotted lady beetle"
-"74","AUGIEENTA0000077","Coleomegilla","maculata",1981-09-27,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"75","AUGIEENTA0000078","Coleomegilla","maculata",2008-06-09,"United States","IL","Lee","Coleomegilla maculata","Spotted lady beetle"
-"76","AUGIEENTA0000079","Coleomegilla","maculata",1976-09-02,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"77","AUGIEENTA0000080","Coleomegilla","maculata",1970-10-12,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"78","AUGIEENTA0000081","Coleomegilla","maculata",1965-05-04,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"79","AUGIEENTA0000082","Coleomegilla","maculata",1984-09-18,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"80","AUGIEENTA0000083","Coleomegilla","maculata",1977-09-06,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"81","AUGIEENTA0000084","Coleomegilla","maculata",2018-10-09,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"82","AUGIEENTA0000085","Coleomegilla","maculata",1986-10-28,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"83","AUGIEENTA0000086","Coleomegilla","maculata",1976-10-26,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"84","AUGIEENTA0000087","Coleomegilla","maculata",1986-09-26,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"85","AUGIEENTA0000088","Coleomegilla","maculata",1982-09-14,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"86","AUGIEENTA0000089","Coleomegilla","maculata",1976-07-12,"United States","IL","Lee","Coleomegilla maculata","Spotted lady beetle"
-"87","AUGIEENTA0000090","Coleomegilla","maculata",1986-10-30,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"88","AUGIEENTA0000091","Coleomegilla","maculata",1980-09-26,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"89","AUGIEENTA0000092","Coleomegilla","maculata",1965-05-11,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"90","AUGIEENTA0000093","Coleomegilla","maculata",1999-06-11,"United States","IL","Lee","Coleomegilla maculata","Spotted lady beetle"
-"91","AUGIEENTA0000094","Coleomegilla","maculata",1972-11-05,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"92","AUGIEENTA0000095","Coleomegilla","maculata",1985-10-02,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"93","AUGIEENTA0000096","Coleomegilla","maculata",1982-09-28,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"94","AUGIEENTA0000097","Coleomegilla","maculata",1997-10-21,"United States","IL","Lee","Coleomegilla maculata","Spotted lady beetle"
-"95","AUGIEENTA0000098","Coleomegilla","maculata",1999-09-17,"United States","IL","Whiteside","Coleomegilla maculata","Spotted lady beetle"
-"96","AUGIEENTA0000099","Coleomegilla","maculata",1986-09-26,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"97","AUGIEENTA0000100","Chilocorus","stigma",1981-09-13,"United States","IL","Rock Island","Chilocorus stigma","Twice stabbed ladybug"
-"98","AUGIEENTA0000101","Adalia","bipunctata",1970-10-06,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"99","AUGIEENTA0000102","Adalia","bipunctata",1965-04-30,"United States","Iowa","Scott","Adalia bipunctata","Two-spot Ladybird"
-"100","AUGIEENTA0000103","Adalia","bipunctata",1980-11-07,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"101","AUGIEENTA0000104","Adalia","bipunctata",1970-10-30,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"102","AUGIEENTA0000105","Adalia","bipunctata",1965-04-30,"United States","Iowa","Scott","Adalia bipunctata","Two-spot Ladybird"
-"103","AUGIEENTA0000106","Adalia","bipunctata",1975-06-18,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"104","AUGIEENTA0000107","Adalia","bipunctata",1970-10-02,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"105","AUGIEENTA0000108","Adalia","bipunctata",1970-10-09,"United States","IL","Rock Island","Adalia bipunctata","Two-spot Ladybird"
-"106","AUGIEENTA0000109","Adalia","bipunctata",1959-03-26,"United States","Iowa","Story","Adalia bipunctata","Two-spot Ladybird"
-"107","AUGIEENTA0000110","Adalia","bipunctata",1965-04-30,"United States","Iowa","Scott","Adalia bipunctata","Two-spot Ladybird"
-"108","AUGIEENTA0000111","Adalia","bipunctata",1965-04-30,"United States","Iowa","Scott","Adalia bipunctata","Two-spot Ladybird"
-"109","AUGIEENTA0000112","Hippodamia","convergens",1965-05-13,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"110","AUGIEENTA0000113","Hippodamia","convergens",1984-09-06,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"111","AUGIEENTA0000114","Hippodamia","convergens",1965-05-04,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"112","AUGIEENTA0000115","Hippodamia","convergens",1974-10-10,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"113","AUGIEENTA0000116","Hippodamia","convergens",1984-09-18,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"114","AUGIEENTA0000117","Hippodamia","convergens",1964-10-19,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"115","AUGIEENTA0000118","Hippodamia","convergens",1965-05-04,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"116","AUGIEENTA0000119","Cycloneda","sanguinea",1970-10-26,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"117","AUGIEENTA0000120","Cycloneda","sanguinea",1996-11-06,"United States","IL","Lee","Cycloneda sanguinea","Spotless ladybird"
-"118","AUGIEENTA0000121","Cycloneda","sanguinea",1974-10-17,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"119","AUGIEENTA0000122","Cycloneda","sanguinea",1965-05-19,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"120","AUGIEENTA0000123","Cycloneda","sanguinea",1970-10-25,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"121","AUGIEENTA0000124","Cycloneda","sanguinea",1970-10-02,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"122","AUGIEENTA0000125","Cycloneda","sanguinea",1965-05-04,"United States","IL","Mercer","Cycloneda sanguinea","Spotless ladybird"
-"123","AUGIEENTA0000126","Cycloneda","sanguinea",1980-06-18,"United States","Minnesota","Todd","Cycloneda sanguinea","Spotless ladybird"
-"124","AUGIEENTA0000127","Cycloneda","sanguinea",1970-10-24,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"125","AUGIEENTA0000128","Cycloneda","sanguinea",1970-10-02,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"126","AUGIEENTA0000129","Cycloneda","sanguinea",1964-10-20,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"127","AUGIEENTA0000130","Cycloneda","sanguinea",2003-08-08,"United States","IL","Lee","Cycloneda sanguinea","Spotless ladybird"
-"128","AUGIEENTA0000131","Cycloneda","sanguinea",1996-07-12,"United States","IL","Lee","Cycloneda sanguinea","Spotless ladybird"
-"129","AUGIEENTA0000132","Cycloneda","sanguinea",1974-09-17,"United States","IL","Rock Island","Cycloneda sanguinea","Spotless ladybird"
-"130","AUGIEENTA0000133","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"131","AUGIEENTA0000134","Hippodamia","tredecimpunctata",1980-06-16,"United States","IL","Rock Island","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"132","AUGIEENTA0000135","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"133","AUGIEENTA0000136","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"134","AUGIEENTA0000137","Hippodamia","convergens",1970-10-20,"United States","IL","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"135","AUGIEENTA0000138","Hippodamia","tredecimpunctata",1965-05-04,"United States","IL","Mercer","Hippodamia tredecimpunctata","Thirteen-spotted lady beetle"
-"136","AUGIEENTA0000139","Hippodamia","convergens",1971-05-29,"United States","Illinois","Mercer","Hippodamia convergens","Convergent lady beetle"
-"137","AUGIEENTA0000140","Hippodamia","convergens",1974-10-03,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"138","AUGIEENTA0000141","Hippodamia","convergens",1974-10-17,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"139","AUGIEENTA0000142","Hippodamia","convergens",1980-10-30,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"140","AUGIEENTA0000143","Hippodamia","convergens",1970-10-03,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"141","AUGIEENTA0000145","Hippodamia","convergens",1996-10-09,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"142","AUGIEENTA0000146","Hippodamia","convergens",1970-09-25,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"143","AUGIEENTA0000147","Hippodamia","convergens",1974-09-17,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"144","AUGIEENTA0000148","Hippodamia","convergens",1976-09-18,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"145","AUGIEENTA0000149","Coccinella","septempunctata",1988-11-03,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"146","AUGIEENTA0000150","Coccinella","septempunctata",1997-09-25,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"147","AUGIEENTA0000151","Coccinella","septempunctata",1986-10-07,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"148","AUGIEENTA0000152","Coccinella","septempunctata",1988-10-20,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"149","AUGIEENTA0000153","Coccinella","septempunctata",1988-11-03,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"150","AUGIEENTA0000154","Coccinella","septempunctata",2000-06-08,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"151","AUGIEENTA0000155","Coccinella","septempunctata",1986-10-15,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"152","AUGIEENTA0000156","Coccinella","septempunctata",1996-10-05,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"153","AUGIEENTA0000157","Coccinella","septempunctata",1986-09-20,"United States","Illinois","Cook","Coccinella septempunctata","Seven-Spot ladybird"
-"154","AUGIEENTA0000158","Coccinella","septempunctata",1990-09-24,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"155","AUGIEENTA0000159","Coccinella","septempunctata",1995-10-10,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"156","AUGIEENTA0000160","Coccinella","septempunctata",1999-09-11,"United States","Illinois","Lee","Coccinella septempunctata","Seven-Spot ladybird"
-"157","AUGIEENTA0000161","Coccinella","septempunctata",1986-10-30,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"158","AUGIEENTB0000024","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"159","AUGIEENTB0000013","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"160","AUGIEENTA0000162","Coccinella","septempunctata",1988-11-03,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"161","AUGIEENTA0000163","Coccinella","septempunctata",1986-10-07,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"162","AUGIEENTB0000012","Coleomegilla","maculata",2021-06-17,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"163","AUGIEENTA0000164","Coccinella","septempunctata",1986-10-02,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"164","AUGIEENTA0000165","Coccinella","septempunctata",1996-10-13,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"165","AUGIEENTA0000166","Coccinella","septempunctata",1986-09-23,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"166","AUGIEENTB0000011","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"167","AUGIEENTA0000167","Coccinella","septempunctata",1988-10-04,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"168","AUGIEENTB0000010","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"169","AUGIEENTA0000168","Coccinella","septempunctata",1999-07-09,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"170","AUGIEENTA0000169","Coccinella","septempunctata",1992-09-24,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"171","AUGIEENTB0000001","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"172","AUGIEENTA0000170","Coccinella","septempunctata",1997-07-09,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"173","AUGIEENTB0000017","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"174","AUGIEENTA0000171","Coccinella","septempunctata",2018-09-13,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"175","AUGIEENTB0000016","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"176","AUGIEENTB0000015","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"177","AGUIEENTB0000002","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"178","AUGIEENTB0000020","Coleomegilla","maculata",2021-06-23,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"179","AUGIEENTB0000025","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"180","AUGIEENTB0000026","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"181","AUGIEENTB0000008","Propylea","quatuordecimpunctata",2021-06-23,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"182","AUGIEENTB0000027","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"183","AUGIEENTB0000019","Propylea","quatuordecimpunctata",2021-06-23,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"184","AUGIEENTB0000028","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"185","AUGIEENTB0000014","Hippodamia","parenthesis",2021-06-23,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"186","AUGIEENTB0000029","Coleomegilla","maculata",2021-06-24,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"187","AUGIEENTB0000004","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"188","AUGIEENTB0000022","Harmonia","axyridis",2021-06-23,"United States","IA","Scott","Harmonia axyridis","Asain lady beetle"
-"189","AUGIEENTB0000006","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"190","AUGIEENTB0000009","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"191","AUGIEENTB0000023","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"192","AUGIEENTB0000005","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"193","AUGIEENTB0000003","Harmonia","axyridis",2021-06-24,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"194","AUGIEENTB0000030","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"195","AUGIEENTB0000031","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"196","AUGIEENTB0000032","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"197","AUGIEENTB0000033","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"198","AUGIEENTB0000034","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"199","AUGIEENTB0000035","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"200","AUGIEENTB0000036","Hippodamia","convergens",2021-07-06,"United States","Iowa","Scott","Hippodamia convergens","Convergent lady beetle"
-"201","AUGIEENTB0000037",NA,NA,2021-07-06,"United States","Iowa","Scott","Na na","Unknown"
-"202","AUGIEENTB0000038","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"203","AUGIEENTB0000039","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"204","AUGIEENTB0000040","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"205","AUGIEENTB0000041","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"206","AUGIEENTB0000041","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"207","AUGIEENTB0000042","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"208","AUGIEENTB0000043","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"209","AUGIEENTB0000044","Coleomegilla","maculata",2021-07-06,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"210","AUGIEENTB0000045","Hippodamia","convergens",2021-07-06,"United States","Iowa","Scott","Hippodamia convergens","Convergent lady beetle"
-"211","AUGIEENTB0000046","Harmonia","axyridis",2021-07-06,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"212","AUGIEENTB0000047","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"213","AUGIEENTB0000048","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"214","AUGIEENTB0000049","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"215","AUGIEENTB0000050","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"216","AUGIEENTB0000051","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"217","AUGIEENTB0000052","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"218","AUGIEENTB0000053","Hippodamia","parenthesis",2021-07-06,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"219","AUGIEENTB0000054","Coccinella","septempunctata",2021-07-06,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"220","AUGIEENTB0000055","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"221","AUGIEENTB0000056","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"222","AUGIEENTB0000057","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"223","AUGIEENTB0000058","Cycloneda","munda",2021-07-06,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"224","AUGIEENTB0000059","Hippodamia","parenthesis",2021-07-06,"United States","IA","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"225","AUGIEENTB0000060","Hyperaspis","undulata",2021-07-06,"United States","IA","Scott","Hyperaspis undulata","Undulate lady beetle"
-"226","AUGIEENTB0000061","Hyperaspis","undulata",2021-07-06,"United States","IA","Scott","Hyperaspis undulata","Undulate lady beetle"
-"227","AUGIEENTB0000062","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"228","AUGIEENTB0000063","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"229","AUGIEENTB0000064","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"230","AUGIEENTB0000071","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"231","AUGIEENTB0000065","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"232","AUGIEENTB0000072","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"233","AUGIEENTB0000073","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"234","AUGIEENTB0000066","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"235","AUGIEENTB0000074","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"236","AUGIEENTB0000075","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"237","AUGIEENTB0000076","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"238","AUGIEENTB0000067","Coccinella","septempunctata",2021-07-07,"United States","IA","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"239","AUGIEENTB0000077","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"240","AUGIEENTB0000078","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"241","AUGIEENTB0000068","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"242","AUGIEENTB0000079","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"243","AUGIEENTB0000080","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"244","AUGIEENTB0000069","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"245","AUGIEENTB0000081","Hippodamia","convergens",2021-07-07,"United States","Iowa","Scott","Hippodamia convergens","Convergent lady beetle"
-"246","AUGIEENTB0000082","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"247","AUGIEENTB0000070","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"248","AUGIEENTB0000083","Hippodamia","parenthesis",2021-07-07,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"249","AUGIEENTB0000090","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"250","AUGIEENTB0000084","Cycloneda","munda",2021-07-07,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"251","AUGIEENTB0000085","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"252","AUGIEENTB0000091","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"253","AUGIEENTB0000086","Propylea","quatuordecimpunctata",2021-07-07,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"254","AUGIEENTB0000092","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"255","AUGIEENTB0000087","Cycloneda","munda",2021-07-07,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"256","AUGIEENTB0000093","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"257","AUGIEENTB0000088","Harmonia","axyridis",2021-07-07,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"258","AUGIEENTB0000094","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"259","AUGIEENTB0000089","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"260","AUGIEENTB0000096","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"261","AUGIEENTB0000095","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"262","AUGIEENTB0000097","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"263","AUGIEENTB0000106","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"264","AUGIEENTB0000107","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"265","AUGIEENTB0000098","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"266","AUGIEENTB0000099","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"267","AUGIEENTB0000108","Cycloneda","munda",2021-07-07,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"268","AUGIEENTB0000100","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"269","AUGIEENTB0000101","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"270","AUGIEENTB0000109","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"271","AUGIEENTB0000102","Cycloneda","munda",2021-07-07,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"272","AUGIEENTB0000110","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"273","AUGIEENTB0000104","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"274","AUGIEENTB0000111","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"275","AUGIEENTB0000105","Psyllobora","vigintimaculata",2021-07-07,"United States","Iowa","Scott","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"276","AUGIEENTB0000112","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"277","AUGIEENTB0000113","Cycloneda","munda",2021-07-07,"United States","Ia","Scott","Cycloneda munda","Polished lady beetle"
-"278","AUGIEENTB0000114","Coleomegilla","maculata",2021-07-07,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"279","AUGIEENTB0000115","Hippodamia","variegata",2021-07-07,"United States","Iowa","Scott","Hippodamia variegata","Adonis ladybird"
-"280","AUGIEENTB0000116","Coleomegilla","maculata",2021-07-07,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"281","AUGIEENTB0000117","Hippodamia","variegata",2021-07-07,"United States","Iowa","Scott","Hippodamia variegata","Adonis ladybird"
-"282","AUGIEENTB0000118","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"283","AUGIEENTB0000119","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"284","AUGIEENTB0000120","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"285","AUGIEENTB0000121","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"286","AUGIEENTB0000122","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"287","AUGIEENTB0000123","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"288","AUGIEENTB0000124","Cycloneda","munda",2021-07-08,"United States","IL","Rock Island","Cycloneda munda","Polished lady beetle"
-"289","AUGIEENTB0000125","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"290","AUGIEENTB0000126","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"291","AUGIEENTB0000127","Propylea","quatuordecimpunctata",2021-07-08,"United States","IL","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"292","AUGIEENTB0000129","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"293","AUGIEENTB0000130","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"294","AUGIEENTB0000131","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"295","AUGIEENTB0000132","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"296","AUGIEENTB0000133","Coleomegilla","maculata",2021-07-08,"United States","IL","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"297","AUGIEENTB0000134","Harmonia","axyridis",2021-07-08,"United States","IL","Rock Island","Harmonia axyridis","Asain lady beetle"
-"298","AUGIEENTB0000135","Hippodamia","parenthesis",2021-07-08,"United States","IL","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"299","AUGIEENTB0000136","Cycloneda","munda",2021-07-08,"United States","IL","Rock Island","Cycloneda munda","Polished lady beetle"
-"300","AUGIEENTB0000137","Cycloneda","munda",2021-07-08,"United States","IL","Rock Island","Cycloneda munda","Polished lady beetle"
-"301","Cycloneda munda	AUGIEENTB0000141","Chilocorus","stigma",2021-07-08,"United States","IL","Rock Island","Chilocorus stigma","Twice stabbed ladybug"
-"302","AUGIEENTB0000139","Brachiacantha","ursina",2021-07-08,"United States","IL","Rock Island","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"303","AUGIEENTB0000140","Psyllobora","vigintimaculata",2021-07-08,"United States","IL","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"304","AUGIEENTB0000141","Chilocorus","stigma",2021-07-08,"United States","IL","Rock Island","Chilocorus stigma","Twice stabbed ladybug"
-"305","AUGIEENTB0000142","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"306","AUGIEENTB0000143","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"307","AUGIEENTB0000144","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"308","AUGIEENTB0000145","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"309","AUGIEENTB0000146","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"310","AUGIEENTB0000147","Coccinella","septempunctata",2021-07-19,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"311","AUGIEENTB0000148","Coccinella","septempunctata",2021-07-19,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"312","AUGIEENTB0000149","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"313","AUGIEENTB0000150","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"314","AUGIEENTB0000151","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"315","AUGIEENTB0000176","Coleomegilla","maculata",2021-07-19,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"316","AUGIEENTB0000152","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"317","AUGIEENTB0000153","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"318","AUGIEENTB0000177","Coleomegilla","maculata",2021-07-19,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"319","AUGIEENTB0000154","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"320","AUGIEENTB0000178","Coleomegilla","maculata",2021-07-19,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"321","AUGIEENTB0000155","Hippodamia","variegata",2021-07-19,"United States","Iowa","Scott","Hippodamia variegata","Adonis ladybird"
-"322","AUGIEENTB0000156","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"323","AUGIEENTB0000157","Hippodamia","parenthesis",2021-07-19,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"324","AUGIEENTB0000158","Cycloneda","munda",2021-07-19,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"325","AUGIEENTB0000179","Coleomegilla","maculata",2021-07-19,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"326","AUGIEENTB0000159","Harmonia","axyridis",2021-07-20,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"327","AUGIEENTB0000180","Cycloneda","munda",2021-07-19,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"328","AUGIEENTB0000181","Harmonia","axyridis",2021-07-19,"United States","IA","Scott","Harmonia axyridis","Asain lady beetle"
-"329","AUGIEENTB0000160","Harmonia","axyridis",2021-07-20,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"330","AUGIEENTB0000161","Harmonia","axyridis",2021-07-20,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"331","AUGIEENTB0000182","Harmonia","axyridis",2021-07-20,"United States","IL","Rock Island","Harmonia axyridis","Asain lady beetle"
-"332","AUGIEENTB0000162","Harmonia","axyridis",2021-07-20,"United States","IL","Rock Island","Harmonia axyridis","Asain lady beetle"
-"333","AUGIEENTB0000163","Harmonia","axyridis",2021-07-20,"United States","IL","Rock Island","Harmonia axyridis","Asain lady beetle"
-"334","AUGIEENTB0000164","Harmonia","axyridis",2021-07-20,"United States","IL","Rock Island","Harmonia axyridis","Asain lady beetle"
-"335","AUGIEENTB0000165","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"336","AUGIEENTB0000166","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"337","AUGIEENTB0000167","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"338","AUGIEENTB0000168","Propylea","quatuordecimpunctata",2021-07-19,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"339","AUGIEENTB0000169","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"340","AUGIEENTB0000170","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"341","AUGIEENTB0000171","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"342","AUGIEENTB0000172","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"343","AUGIEENTB0000173","Harmonia","axyridis",2021-07-19,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"344","AUGIEENTB0000174","Cycloneda","munda",2021-07-19,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"345","AUGIEENTB0000175","Hippodamia","convergens",2021-07-19,"United States","Iowa","Scott","Hippodamia convergens","Convergent lady beetle"
-"346","AUGIEENTB0000183","Coccinella","septempunctata",2021-07-19,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"347","AUGIEENTB0000184","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"348","AUGIEENTB0000185","Chilocorus","stigma",2021-07-19,"United States","Iowa","Scott","Chilocorus stigma","Twice stabbed ladybug"
-"349","AUGIEENTB0000186","Coleomegilla","maculata",2021-07-19,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"350","AUGIEENTB0000187","Cycloneda","munda",2021-07-20,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"351","AUGIEENTB0000188","Cycloneda","munda",2021-07-20,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"352","AUGIEENTB0000189","Propylea","quatuordecimpunctata",2021-07-20,"United States","Illinois","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"353","AUGIEENTB0000190","Brachiacantha","ursina",2021-07-19,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"354","AUGIEENTB0000191","Brachiacantha","ursina",2021-07-20,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"355","AUGIEENTB0000192","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"356","AUGIEENTB0000193","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"357","AUGIEENTB0000194","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"358","AUGIEENTB0000195","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"359","AUGIEENTB0000196","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"360","AUGIEENTB0000197","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"361","AUGIEENTB0000198","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"362","AUGIEENTB0000199","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"363","AUGIEENTB0000200","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"364","AUGIEENTB0000201","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"365","AUGIEENTB0000202","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"366","AUGIEENTB0000203","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"367","AUGIEENTB0000204","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"368","AUGIEENTB0000205","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"369","AUGIEENTB0000206","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"370","AUGIEENTB0000207","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"371","AUGIEENTB0000208","Harmonia","axyridis",2021-07-21,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"372","AUGIEENTB0000209","Coccinella","septempunctata",2021-07-21,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"373","AUGIEENTB0000210","Coccinella","septempunctata",2021-07-21,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"374","AUGIEENTB0000211","Coccinella","septempunctata",2021-07-21,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"375","AUGIEENTB0000212","Coccinella","septempunctata",2021-07-21,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"376","AUGIEENTB0000213","Cycloneda","munda",2021-07-21,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"377","AUGIEENTB0000214","Hippodamia","parenthesis",2021-07-21,"United States","Illinois","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"378","AUGIEENTB0000215","Propylea","quatuordecimpunctata",2021-07-21,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"379","AUGIEENTB0000216","Hippodamia","parenthesis",2021-07-21,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"380","AUGIEENTB0000217","Cycloneda","munda",2021-07-21,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"381","AUGIEENTB0000218","Psyllobora","vigintimaculata",2021-07-21,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"382","AUGIEENTB0000219","Cycloneda","munda",2021-07-21,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"383","AUGIEENTB0000220","Harmonia","axyridis",2021-07-21,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"384","AUGIEENTB0000221","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"385","AUGIEENTB0000222","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"386","AUGIEENTB0000223","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"387","AUGIEENTB0000224","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"388","AUGIEENTB0000225","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"389","AUGIEENTB0000226","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"390","AUGIEENTB0000227","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"391","AUGIEENTB0000228","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"392","AUGIEENTB0000229","Coleomegilla","maculata",2021-07-21,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"393","AUGIEENTB0000232","Coleomegilla","maculata",2021-07-21,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"394","AUGIEENTB0000231","Harmonia","axyridis",2021-07-21,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"395","AUGIEENTB0000233","Brachiacantha","ursina",2021-07-19,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"396","AUGIEENTB0000249","Harmonia","axyridis",2021-08-03,"United States","IA","Scott","Harmonia axyridis","Asain lady beetle"
-"397","AUGIEENTB0000250","Coleomegilla","maculata",2021-08-03,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"398","AUGIEENTB0000251","Cycloneda","munda",2021-08-03,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"399","AUGIEENTB0000252","Cycloneda","munda",2021-08-03,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"400","AUGIEENTB0000253","Harmonia","axyridis",2021-08-03,"United States","IA","Scott","Harmonia axyridis","Asain lady beetle"
-"401","AUGIEENTB0000254","Chilocorus","stigma",2021-08-03,"United States","IA","Scott","Chilocorus stigma","Twice stabbed ladybug"
-"402","AUGIEENTB0000246","Coccinella","septempunctata",2021-08-03,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"403","AUGIEENTB0000255","Cycloneda","munda",2021-08-03,"United States","IA","Scott","Cycloneda munda","Polished lady beetle"
-"404","AUGIEENTB0000247","Coccinella","septempunctata",2021-08-03,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"405","AUGIEENTB0000248","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"406","AUGIEENTB0000236","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"407","AUGIEENTB0000237","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"408","AUGIEENTB0000238","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"409","AUGIEENTB0000239","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"410","AUGIEENTB0000256","Coleomegilla","maculata",2021-08-03,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"411","AUGIEENTB0000240","Cycloneda","munda",2021-08-03,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"412","AUGIEENTB000257","Hippodamia","convergens",2021-08-03,"United States","IA","Scott","Hippodamia convergens","Convergent lady beetle"
-"413","AUGIEENTB0000241","Coccinella","septempunctata",2021-08-03,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"414","AUGIEENTB0000242","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"415","AUGIEENTB0000243","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"416","AUGIEENTB0000244","Hippodamia","parenthesis",2021-08-03,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"417","AUGIEENTB0000258","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"418","AUGIEENTB0000245","Propylea","quatuordecimpunctata",2021-08-03,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"419","AUGIEENTB0000259","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"420","AUGIEENTB0000269","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"421","AUGIEENTB0000260","Propylea","quatuordecimpunctata",2021-08-03,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"422","AUGIEENTB0000270","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"423","AUGIEENTB0000271","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"424","AUGIEENTB0000235","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"425","AUGIEENTB0000261","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"426","AUGIEENTB0000262","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"427","AUGIEENTB0000262",NA,NA,2021-08-03,"United States","Iowa","Scott","Na na","Unknown"
-"428","AUGIEENTB0000263","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"429","AUGIEENTB0000264","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"430","AUGIEENTB0000265","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"431","AUGIEENTB0000266","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"432","AUGIEENTB0000267","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"433","AUGIEENTB0000268","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"434","AUGIEENTB0000281","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"435","AUGIEENTB0000282","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"436","AUGIEENTB0000283","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"437","AUGIEENTB0000284","Brachiacantha","ursina",2021-08-03,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"438","AUGIEENTB0000272","Coleomegilla","maculata",2021-08-03,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"439","AUGIEENTB0000273","Coleomegilla","maculata",2021-08-03,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"440","AUGIEENTB0000274","Coleomegilla","maculata",2021-08-03,"United States","IA","Scott","Coleomegilla maculata","Spotted lady beetle"
-"441","AUGIEENTB0000285","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"442","AUGIEENTB0000275","Hippodamia","variegata",2021-08-03,"United States","IA","Scott","Hippodamia variegata","Adonis ladybird"
-"443","AUGIEENTB0000286","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"444","AUGIEENTB0000276","Hippodamia","convergens",2021-08-03,"United States","IA","Scott","Hippodamia convergens","Convergent lady beetle"
-"445","AUGIEENTB0000287","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"446","AUGIEENTB0000288","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"447","AUGIEENTB0000289","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"448","AUGIEENTB0000290","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"449","AUGIEENTB0000291","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"450","AUGIEENTB0000292","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"451","AUGIEENTB0000296","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"452","AUGIEENTB0000297","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"453","AUGIEENTB0000277","Hippodamia","parenthesis",2021-08-03,"United States","IA","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"454","AUGIEENTB0000298","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"455","AUGIEENTB0000278","Hippodamia","variegata",2021-08-03,"United States","IA","Scott","Hippodamia variegata","Adonis ladybird"
-"456","AUGIEENTB0000299","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"457","AUGIEENTB0000279","Hippodamia","parenthesis",2021-08-03,"United States","IA","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"458","AUGIEENTB0000300","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"459","AUGIEENTB0000280","Hippodamia","variegata",2021-08-03,"United States","IA","Scott","Hippodamia variegata","Adonis ladybird"
-"460","AUGIEENTB0000301","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"461","AUGIEENTB0000293","Hippodamia","variegata",2021-08-03,"United States","IA","Scott","Hippodamia variegata","Adonis ladybird"
-"462","AUGIEENTB0000302","Harmonia","axyridis",2021-08-03,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"463","AUGIEENTB0000294","Propylea","quatuordecimpunctata",2021-08-03,"United States","IA","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"464","AUGIEENTB0000303","Propylea","quatuordecimpunctata",2021-08-03,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"465","AUGIEENTB0000295","Propylea","quatuordecimpunctata",2021-08-03,"United States","IA","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"466","AUGIEENTB0000304","Coleomegilla","maculata",2021-08-03,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"467","AUGIEENTB0000305","Cycloneda","munda",2021-08-03,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"468","AUGIEENTB0000306","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"469","AUGIEENTB0000307","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"470","AUGIEENTB0000308","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"471","AUGIEENTB0000309","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"472","AUGIEENTB0000310","Psyllobora","vigintimaculata",2021-08-04,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"473","AUGIEENTB0000311","Psyllobora","vigintimaculata",2021-08-04,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"474","AUGIEENTB0000312","Psyllobora","vigintimaculata",2021-08-04,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"475","AUGIEENTB0000313","Propylea","quatuordecimpunctata",2021-08-04,"United States","Illinois","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"476","AUGIEENTB0000314","Psyllobora","vigintimaculata",2021-08-04,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"477","AUGIEENTB0000315","Cycloneda","munda",2021-08-04,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"478","AUGIEENTB0000316","Cycloneda","munda",2021-08-04,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"479","AUGIEENTB0000318","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"480","AUGIEENTB0000319","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"481","AUGIEENTB0000320","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"482","AUGIEENTB0000321","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"483","AUGIEENTB0000322","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"484","AUGIEENTB0000323","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"485","AUGIEENTB0000324","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"486","AUGIEENTB0000325","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"487","AUGIEENTB0000326",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"488","AUGIEENTB0000327","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"489","AUGIEENTB0000328","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"490","AUGIEENTB0000329","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"491","AUGIEENTB0000330","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"492","AUGIEENTB0000331","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"493","AUGIEENTB0000332","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"494","AUGIEENTB0000333","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"495","AUGIEENTB0000344","Coleomegilla","maculata",2021-08-04,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"496","AUGIEENTB0000334","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"497","AUGIEENTB0000345","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"498","AUGIEENTB0000335","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"499","AUGIEENTB0000346","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"500","AUGIEENTB0000336","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"501","AUGIEENTB0000347","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"502","AUGIEENTB0000337","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"503","AUGIEENTB0000348","Harmonia","axyridis",2021-08-04,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"504","AUGIEENTB0000338","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"505","AUGIEENTB0000339","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"506","AUGIEENTB0000349","Propylea","quatuordecimpunctata",2021-08-04,"United States","Illinois","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"507","AUGIEENTB0000340","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"508","AUGIEENTB0000350","Propylea","quatuordecimpunctata",2021-08-04,"United States","Illinois","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"509","AUGIEENTB0000341","Hippodamia","convergens",2021-08-05,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"510","AUGIEENTB0000342","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"511","AUGIEENTB0000343","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"512","AUGIEENTB0000351","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"513","AUGIEENTB0000352","Hippodamia","convergens",2021-08-05,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"514","AUGIEENTB0000353","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"515","AUGIEENTB0000354","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"516","AUGIEENTB0000355","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"517","AUGIEENTB0000356","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"518","AUGIEENTB0000357","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"519","AUGIEENTB0000358","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"520","AUGIEENTB0000359","Harmonia","axyridis",2021-08-05,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"521","AUGIEENTB0000360","Coccinella","septempunctata",2021-08-05,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"522","AUGIEENTB0000361","Coccinella","septempunctata",2021-08-05,"United States","Illinois","Rock Island","Coccinella septempunctata","Seven-Spot ladybird"
-"523","AUGIEENTB0000362","Hippodamia","convergens",2021-08-05,"United States","Illinois","Rock Island","Hippodamia convergens","Convergent lady beetle"
-"524","AUGIEENTB0000363","Hippodamia","parenthesis",2021-08-05,"United States","Illinois","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"525","AUGIEENTB0000234","Coleomegilla","maculata",2021-07-20,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"526","AUGIEENTB0000002","Coleomegilla","maculata",2021-06-23,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"527","AUGIEENTB0000230","Hippodamia","variegata",2021-07-21,"United States","Illinois","Rock Island","Hippodamia variegata","Adonis ladybird"
-"528","AUGIEENTB0000365","Cycloneda","munda",2021-08-05,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"529","AUGIEENTB0000364","Coleomegilla","maculata",2021-08-05,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"530","AUGIEENTB0000367",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"531","AUGIEENTB0000368",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"532","AUGIEENTB0000369",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"533","AUGIEENTB0000370",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"534","AUGIEENTB0000366",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"535","AUGIEENTB0000374",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"536","AUGIEENTB0000372","Coleomegilla","maculata",2021-08-05,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"537","AUGIEENTB0000373",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"538","AUGIEENTB0000371",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"539","AUGIEENTB0000375",NA,NA,2021-08-05,"United States","Illinois","Rock Island","Na na","Unknown"
-"540","AUGIEENTB0000376","Coccinella","septempunctata",2021-08-17,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"541","AUGIEENTB0000377","Coccinella","septempunctata",2021-08-17,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"542","AUGIEENTB0000378","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"543","AUGIEENTB0000379","Hippodamia","parenthesis",2021-08-17,"United States","Iowa","Scott","Hippodamia parenthesis","Parentheses lady beetle"
-"544","AUGIEENTB0000380","Propylea","quatuordecimpunctata",2021-08-17,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"545","AUGIEENTB0000381","Propylea","quatuordecimpunctata",2021-08-17,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"546","AUGIEENTB0000382","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"547","AUGIEENTB0000383","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"548","AUGIEENTB0000384","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"549",NA,NA,NA,2021-08-17,"United States","Iowa","Scott","Na na","Unknown"
-"550","AUGIEENTB0000385","Coleomegilla","maculata",2021-08-17,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"551","AUGIEENTB0000386","Propylea","quatuordecimpunctata",2021-08-17,"United States","Iowa","Scott","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"552","AUGIEENTB0000387","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"553","AUGIEENTB0000388","Psyllobora","vigintimaculata",2021-08-17,"United States","Iowa","Scott","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"554","AUGIEENTB0000389","Psyllobora","vigintimaculata",2021-08-17,"United States","Iowa","Scott","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"555","AUGIEENTB0000390","Hippodamia","convergens",2021-08-17,"United States","Iowa","Scott","Hippodamia convergens","Convergent lady beetle"
-"556","AUGIEENTB0000391","Coleomegilla","maculata",2021-08-17,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"557","AUGIEENTB0000392","Brachiacantha","ursina",2021-08-17,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"558","AUGIEENTB0000393","Brachiacantha","ursina",2021-08-17,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"559","AUGIEENTB0000394","Brachiacantha","ursina",2021-08-17,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"560","AUGIEENTB0000395","Brachiacantha","ursina",2021-08-17,"United States","Iowa","Scott","Brachiacantha ursina","Ursine Spurleg Lady Beetle"
-"561","AUGIEENTB0000396","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"562","AUGIEENTB0000397","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"563","AUGIEENTB0000398","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"564","AUGIEENTB0000399","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"565","AUGIEENTB0000400","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"566","AUGIEENTB0000401","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"567","AUGIEENTB0000402","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"568","AUGIEENTB0000403","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"569","AUGIEENTB0000404",NA,NA,2021-08-17,"United States","Iowa","Scott","Na na","Unknown"
-"570","AUGIEENTB0000405","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"571","AUGIEENTB0000406","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"572","AUGIEENTB0000407","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"573","AUGIEENTB0000408","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"574","AUGIEENTB0000409","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"575","AUGIEENTB0000410","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"576","AUGIEENTB0000411","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"577","AUGIEENTB0000412","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"578","AUGIEENTB0000413","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"579","AUGIEENTB0000414","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"580","AUGIEENTB0000415","Psyllobora","vigintimaculata",2021-08-17,"United States","Iowa","Scott","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"581","AUGIEENTB0000416","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"582","AUGIEENTB0000417","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"583","AUGIEENTB0000418","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"584","AUGIEENTB0000419","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"585","AUGIEENTB0000420","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"586","AUGIEENTB0000421","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"587","AUGIEENTB0000422","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"588","AUGIEENTB0000423","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"589","AUGIEENTB0000424","Coleomegilla","maculata",2021-08-17,"United States","Iowa","Scott","Coleomegilla maculata","Spotted lady beetle"
-"590","AUGIEENTB0000425","Coccinella","septempunctata",2021-08-17,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"591","AUGIEENTB0000426","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"592","AUGIEENTB0000427","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"593","AUGIEENTB0000428","Coccinella","septempunctata",2021-08-17,"United States","Iowa","Scott","Coccinella septempunctata","Seven-Spot ladybird"
-"594","AUGIEENTB0000429","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"595","AUGIEENTB0000430","Harmonia","axyridis",2021-08-17,"United States","Iowa","Scott","Harmonia axyridis","Asain lady beetle"
-"596","AUGIEENTB0000431","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"597","AUGIEENTB0000432","Cycloneda","munda",2021-08-17,"United States","Iowa","Scott","Cycloneda munda","Polished lady beetle"
-"598","AUGIEENTB0000433","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"599","AUGIEENTB0000434","Hippodamia","parenthesis",2021-08-18,"United States","Illinois","Rock Island","Hippodamia parenthesis","Parentheses lady beetle"
-"600","AUGIEENTB0000435","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"601","AUGIEENTB0000441","Coleomegilla","maculata",2021-08-18,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"602","AUGIEENTB0000442","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"603","AUGIEENTB0000436","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"604","AUGIEENTB0000437","Coleomegilla","maculata",2021-08-18,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"605","AUGIEENTB0000438","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"606","AUGIEENTB0000439","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"607","AUGIEENTB0000440","Coleomegilla","maculata",2021-08-18,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"608","AUGIEENTB0000443","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"609","AUGIEENTB0000444","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"610","AUGIEENTB0000445","Coleomegilla","maculata",2021-08-18,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"611","AUGIEENTB0000447","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"612","AUGIEENTB0000448","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"613","AUGIEENTB0000449","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"614","AUGIEENTB0000450","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"615","AUGIEENTB0000451","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"616","AUGIEENTB0000455","Hyperaspis","undulata",2021-08-18,"United States","Illinois","Rock Island","Hyperaspis undulata","Undulate lady beetle"
-"617","AUGIEENTB0000452","Harmonia","axyridis",2021-08-18,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"618","AUGIEENTB0000453","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"619","AUGIEENTB0000454","Propylea","quatuordecimpunctata",2021-08-18,"United States","Illinois","Rock Island","Propylea quatuordecimpunctata","Fourteen-spotted ladybug"
-"620","AUGIEENTB0000501","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"621","AUGIEENTB0000502","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"622","AUGIEENTB0000503","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"623","AUGIEENTB0000504","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"624","AUGIEENTB0000505","Coleomegilla","maculata",2021-08-18,"United States","Illinois","Rock Island","Coleomegilla maculata","Spotted lady beetle"
-"625","AUGIEENTB0000506","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"626","AUGIEENTB0000507","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"627","AUGIEENTB0000508","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"628","AUGIEENTB0000509","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"629","AUGIEENTB0000510","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"630","AUGIEENTB0000511","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"631","AUGIEENTB0000512","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"632","AUGIEENTB0000513","Psyllobora","vigintimaculata",2021-08-18,"United States","Illinois","Rock Island","Psyllobora vigintimaculata","Twenty-spotted lady beetle"
-"633","AUGIEENTB0000514","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"634","AUGIEENTB0000515","Cycloneda","munda",2021-08-18,"United States","Illinois","Rock Island","Cycloneda munda","Polished lady beetle"
-"635","AUGIEENTB0000517","Harmonia","axyridis",2021-08-19,"United States","Illinois","Rock Island","Harmonia axyridis","Asain lady beetle"
-"636","AUGIEENTA0000500","Epargyreus","clarus",1966-06-29,"United States","Il","Rock Island","Epargyreus clarus","Silver spotted skipper"
+catalogNumber,genus,specificEpithet,eventDate,country,stateProvince,county,species,commonName
+AUGUENTA0000001,NA,NA,1992-10-21,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000002,NA,NA,2008-08-15,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000004,NA,NA,1988-09-20,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000005,NA,NA,1974-10-29,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000006,NA,NA,1972-10-21,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000007,NA,NA,2018-08-30,United States,IA,Scott,Na na,Unknown
+AUGIEENTA0000008,NA,NA,1997-09-20,United States,IL,Adams,Na na,Unknown
+AUGIEENTA0000009,NA,NA,1986-09-16,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000010,NA,NA,1997-09-18,United States,IL,Rock Island,Na na,Unknown
+AUGIEENTA0000011,Chilocorus,stigma,1993-08-27,United States,Montana,Jasper,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTA0000012,Chilocorus,stigma,1994-10-10,United States,IL,Rock Island,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTA0000013,Chilocorus,stigma,1971-06-14,United States,IL,Mercer,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTA0000014,Chilocorus,stigma,1970-10-02,United States,IL,Rock Island,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTA0000015,Hippodamia,convergens,1970-07-02,United States,Colorado,Adams,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000016,Hippodamia,convergens,1981-07-02,United States,Colorado,Adams,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000017,Hippodamia,convergens,1974-10-05,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000018,Hippodamia,caseyi,1956-05-14,United States,Kansas,Riley,Hippodamia caseyi,Caseys Lady Beetle
+AUGIEENTA0000019,Hippodamia,convergens,1970-10-02,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000020,Hippodamia,parenthesis,1965-08-28,United States,IL,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTA0000021,Hippodamia,parenthesis,1978-09-16,United States,IL,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTA0000022,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000023,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000024,Hippodamia,tredecimpunctata,1972-11-05,United States,IL,Rock Island,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000025,Brachiacantha,ursina,1975-06-18,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000026,Brachiacantha,ursina,1966-06-24,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000027,Brachiacantha,ursina,1965-05-24,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUEIEENTA0000028,Brachiacantha,ursina,1965-05-04,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000029,Brachiacantha,ursina,1966-06-29,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000030,Brachiacantha,ursina,1976-09-17,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000031,Brachiacantha,ursina,1975-07-16,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000032,Brachiacantha,ursina,1986-09-23,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTA0000033,Psyllobora,vigintimaculata,1976-05-07,United States,IL,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000034,Psyllobora,vigintimaculata,1970-05-29,United States,IL,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000035,Psyllobora,vigintimaculata,1970-05-09,United States,IL,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000036,NA,NA,1970-09-18,United States,Il,Rock Island,Na na,Unknown
+AUGIEENTA0000037,Coleomegilla,maculata,1953-04-20,United States,Minnesota,Pine,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000047,Cycloneda,sanguinea,1965-05-19,United States,Illinois,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000038,Coleomegilla,maculata,1970-10-03,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000048,Cycloneda,sanguinea,1970-06-19,United States,Illinois,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000039,Coleomegilla,maculata,1970-10-02,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000040,Anatis,mali,1955-05-26,United States,Minnesota,Houston,Anatis mali,Eye spotted Lady Beetle
+AUGIEENTA0000050,Olla,v-nigrum,1974-08-11,United States,Illinois,Rock Island,Olla v-nigrum,Ashy-Gray Lady Beetle
+AUGIEENTA0000041,Anatis,labiculata,1964-05-18,United States,IL,Rock Island,Anatis labiculata,Fifteen-spotted Lady Beetle
+AUGIEENTA0000051,Olla,v-nigrum,1974-08-11,United States,Illinois,Rock Island,Olla v-nigrum,Ashy-Gray Lady Beetle
+AUGIEENTA0000042,Anatis,labiculata,1955-04-16,United States,Minnesota,Anoka,Anatis labiculata,Fifteen-spotted Lady Beetle
+AUGIEENTA0000052,Olla,v-nigrum,1974-09-17,United States,Illinois,Rock Island,Olla v-nigrum,Ashy-Gray Lady Beetle
+AUGIEENTA0000043,Anatis,labiculata,1955-04-20,United States,Michigan,Pine,Anatis labiculata,Fifteen-spotted Lady Beetle
+AUGIEENTA0000044,Adalia,bipunctata,1970-10-03,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000045,Adalia,bipunctata,1970-10-17,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000046,Adalia,bipunctata,1974-10-05,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000053,Coccinella,transversoguttata,1980-08-08,United States,Minnesota,Todd,Coccinella transversoguttata,Transverse Ladybird
+AUGIEENTA0000054,Coccinella,transversoguttata,1980-08-08,United States,Minnesota,Todd,Coccinella transversoguttata,Transverse Ladybird
+AUGIEENTA0000055,Epilachna,varivestis,1970-10-02,United States,Illinois,Rock Island,Epilachna varivestis,Mexican Bean Beetle
+AUGIEENTA0000056,Epilachna,varivestis,1972-10-07,United States,Illinois,Rock Island,Epilachna varivestis,Mexican Bean Beetle
+AUGIEENTA0000057,Epilachna,varivestis,1972-09-16,United States,Illinois,Rock Island,Epilachna varivestis,Mexican Bean Beetle
+AUGIEENTA0000058,Hyperaspis,signata,1983-07-08,United States,Kansas,Reno,Hyperaspis signata,Red-Marked Ladybug
+AUGIEENTA0000059,Psyllobora,vigintimaculata,1980-10-30,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000060,Psyllobora,vigintimaculata,1980-10-25,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000063,Coleomegilla,maculata,1983-09-15,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000061,Psyllobora,vigintimaculata,1976-10-21,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTA0000062,Coleomegilla,maculata,1982-09-14,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000064,Coleomegilla,maculata,2016-07-20,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000070,Coleomegilla,maculata,1980-09-03,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000069,Coleomegilla,maculata,1982-09-30,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000068,Coleomegilla,maculata,1980-11-07,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000067,Coleomegilla,maculata,1995-04-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000065,Coleomegilla,maculata,1982-09-14,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000071,Coleomegilla,maculata,1999-07-06,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000072,Coleomegilla,maculata,1980-06-12,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000073,Coleomegilla,maculata,1965-05-04,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000074,Coleomegilla,maculata,1965-05-04,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000075,Coleomegilla,maculata,1997-08-14,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000076,Coleomegilla,maculata,1999-10-10,United States,IL,McHenry,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000077,Coleomegilla,maculata,1981-09-27,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000078,Coleomegilla,maculata,2008-06-09,United States,IL,Lee,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000079,Coleomegilla,maculata,1976-09-02,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000080,Coleomegilla,maculata,1970-10-12,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000081,Coleomegilla,maculata,1965-05-04,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000082,Coleomegilla,maculata,1984-09-18,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000083,Coleomegilla,maculata,1977-09-06,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000084,Coleomegilla,maculata,2018-10-09,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000085,Coleomegilla,maculata,1986-10-28,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000086,Coleomegilla,maculata,1976-10-26,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000087,Coleomegilla,maculata,1986-09-26,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000088,Coleomegilla,maculata,1982-09-14,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000089,Coleomegilla,maculata,1976-07-12,United States,IL,Lee,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000090,Coleomegilla,maculata,1986-10-30,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000091,Coleomegilla,maculata,1980-09-26,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000092,Coleomegilla,maculata,1965-05-11,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000093,Coleomegilla,maculata,1999-06-11,United States,IL,Lee,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000094,Coleomegilla,maculata,1972-11-05,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000095,Coleomegilla,maculata,1985-10-02,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000096,Coleomegilla,maculata,1982-09-28,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000097,Coleomegilla,maculata,1997-10-21,United States,IL,Lee,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000098,Coleomegilla,maculata,1999-09-17,United States,IL,Whiteside,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000099,Coleomegilla,maculata,1986-09-26,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000100,Chilocorus,stigma,1981-09-13,United States,IL,Rock Island,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTA0000101,Adalia,bipunctata,1970-10-06,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000102,Adalia,bipunctata,1965-04-30,United States,Iowa,Scott,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000103,Adalia,bipunctata,1980-11-07,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000104,Adalia,bipunctata,1970-10-30,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000105,Adalia,bipunctata,1965-04-30,United States,Iowa,Scott,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000106,Adalia,bipunctata,1975-06-18,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000107,Adalia,bipunctata,1970-10-02,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000108,Adalia,bipunctata,1970-10-09,United States,IL,Rock Island,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000109,Adalia,bipunctata,1959-03-26,United States,Iowa,Story,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000110,Adalia,bipunctata,1965-04-30,United States,Iowa,Scott,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000111,Adalia,bipunctata,1965-04-30,United States,Iowa,Scott,Adalia bipunctata,Two-spot Ladybird
+AUGIEENTA0000112,Hippodamia,convergens,1965-05-13,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000113,Hippodamia,convergens,1984-09-06,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000114,Hippodamia,convergens,1965-05-04,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000115,Hippodamia,convergens,1974-10-10,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000116,Hippodamia,convergens,1984-09-18,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000117,Hippodamia,convergens,1964-10-19,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000118,Hippodamia,convergens,1965-05-04,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000119,Cycloneda,sanguinea,1970-10-26,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000120,Cycloneda,sanguinea,1996-11-06,United States,IL,Lee,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000121,Cycloneda,sanguinea,1974-10-17,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000122,Cycloneda,sanguinea,1965-05-19,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000123,Cycloneda,sanguinea,1970-10-25,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000124,Cycloneda,sanguinea,1970-10-02,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000125,Cycloneda,sanguinea,1965-05-04,United States,IL,Mercer,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000126,Cycloneda,sanguinea,1980-06-18,United States,Minnesota,Todd,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000127,Cycloneda,sanguinea,1970-10-24,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000128,Cycloneda,sanguinea,1970-10-02,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000129,Cycloneda,sanguinea,1964-10-20,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000130,Cycloneda,sanguinea,2003-08-08,United States,IL,Lee,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000131,Cycloneda,sanguinea,1996-07-12,United States,IL,Lee,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000132,Cycloneda,sanguinea,1974-09-17,United States,IL,Rock Island,Cycloneda sanguinea,Spotless Ladybird
+AUGIEENTA0000133,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000134,Hippodamia,tredecimpunctata,1980-06-16,United States,IL,Rock Island,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000135,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000136,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000137,Hippodamia,convergens,1970-10-20,United States,IL,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000138,Hippodamia,tredecimpunctata,1965-05-04,United States,IL,Mercer,Hippodamia tredecimpunctata,Thirteen-spotted Lady Beetle
+AUGIEENTA0000139,Hippodamia,convergens,1971-05-29,United States,Illinois,Mercer,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000140,Hippodamia,convergens,1974-10-03,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000141,Hippodamia,convergens,1974-10-17,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000142,Hippodamia,convergens,1980-10-30,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000143,Hippodamia,convergens,1970-10-03,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000145,Hippodamia,convergens,1996-10-09,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000146,Hippodamia,convergens,1970-09-25,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000147,Hippodamia,convergens,1974-09-17,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000148,Hippodamia,convergens,1976-09-18,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTA0000149,Coccinella,septempunctata,1988-11-03,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000150,Coccinella,septempunctata,1997-09-25,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000151,Coccinella,septempunctata,1986-10-07,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000152,Coccinella,septempunctata,1988-10-20,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000153,Coccinella,septempunctata,1988-11-03,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000154,Coccinella,septempunctata,2000-06-08,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000155,Coccinella,septempunctata,1986-10-15,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000156,Coccinella,septempunctata,1996-10-05,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000157,Coccinella,septempunctata,1986-09-20,United States,Illinois,Cook,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000158,Coccinella,septempunctata,1990-09-24,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000159,Coccinella,septempunctata,1995-10-10,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000160,Coccinella,septempunctata,1999-09-11,United States,Illinois,Lee,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000161,Coccinella,septempunctata,1986-10-30,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000024,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000013,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000162,Coccinella,septempunctata,1988-11-03,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000163,Coccinella,septempunctata,1986-10-07,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000012,Coleomegilla,maculata,2021-06-17,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000164,Coccinella,septempunctata,1986-10-02,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000165,Coccinella,septempunctata,1996-10-13,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000166,Coccinella,septempunctata,1986-09-23,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000011,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000167,Coccinella,septempunctata,1988-10-04,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000010,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000168,Coccinella,septempunctata,1999-07-09,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTA0000169,Coccinella,septempunctata,1992-09-24,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000001,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000170,Coccinella,septempunctata,1997-07-09,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000017,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTA0000171,Coccinella,septempunctata,2018-09-13,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000016,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000015,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AGUIEENTB0000002,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000020,Coleomegilla,maculata,2021-06-23,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000025,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000026,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000008,Propylea,quatuordecimpunctata,2021-06-23,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000027,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000019,Propylea,quatuordecimpunctata,2021-06-23,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000028,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000014,Hippodamia,parenthesis,2021-06-23,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000029,Coleomegilla,maculata,2021-06-24,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000004,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000022,Harmonia,axyridis,2021-06-23,United States,IA,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000006,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000009,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000023,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000005,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000003,Harmonia,axyridis,2021-06-24,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000030,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000031,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000032,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000033,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000034,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000035,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000036,Hippodamia,convergens,2021-07-06,United States,Iowa,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000037,NA,NA,2021-07-06,United States,Iowa,Scott,Na na,Unknown
+AUGIEENTB0000038,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000039,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000040,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000041,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000041,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000042,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000043,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000044,Coleomegilla,maculata,2021-07-06,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000045,Hippodamia,convergens,2021-07-06,United States,Iowa,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000046,Harmonia,axyridis,2021-07-06,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000047,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000048,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000049,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000050,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000051,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000052,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000053,Hippodamia,parenthesis,2021-07-06,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000054,Coccinella,septempunctata,2021-07-06,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000055,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000056,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000057,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000058,Cycloneda,munda,2021-07-06,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000059,Hippodamia,parenthesis,2021-07-06,United States,IA,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000060,Hyperaspis,undulata,2021-07-06,United States,IA,Scott,Hyperaspis undulata,Undulate Lady Beetle
+AUGIEENTB0000061,Hyperaspis,undulata,2021-07-06,United States,IA,Scott,Hyperaspis undulata,Undulate Lady Beetle
+AUGIEENTB0000062,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000063,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000064,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000071,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000065,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000072,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000073,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000066,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000074,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000075,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000076,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000067,Coccinella,septempunctata,2021-07-07,United States,IA,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000077,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000078,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000068,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000079,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000080,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000069,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000081,Hippodamia,convergens,2021-07-07,United States,Iowa,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000082,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000070,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000083,Hippodamia,parenthesis,2021-07-07,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000090,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000084,Cycloneda,munda,2021-07-07,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000085,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000091,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000086,Propylea,quatuordecimpunctata,2021-07-07,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000092,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000087,Cycloneda,munda,2021-07-07,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000093,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000088,Harmonia,axyridis,2021-07-07,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000094,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000089,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000096,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000095,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000097,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000106,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000107,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000098,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000099,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000108,Cycloneda,munda,2021-07-07,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000100,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000101,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000109,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000102,Cycloneda,munda,2021-07-07,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000110,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000104,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000111,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000105,Psyllobora,vigintimaculata,2021-07-07,United States,Iowa,Scott,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000112,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000113,Cycloneda,munda,2021-07-07,United States,Ia,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000114,Coleomegilla,maculata,2021-07-07,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000115,Hippodamia,variegata,2021-07-07,United States,Iowa,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000116,Coleomegilla,maculata,2021-07-07,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000117,Hippodamia,variegata,2021-07-07,United States,Iowa,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000118,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000119,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000120,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000121,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000122,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000123,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000124,Cycloneda,munda,2021-07-08,United States,IL,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000125,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000126,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000127,Propylea,quatuordecimpunctata,2021-07-08,United States,IL,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000129,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000130,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000131,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000132,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000133,Coleomegilla,maculata,2021-07-08,United States,IL,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000134,Harmonia,axyridis,2021-07-08,United States,IL,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000135,Hippodamia,parenthesis,2021-07-08,United States,IL,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000136,Cycloneda,munda,2021-07-08,United States,IL,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000137,Cycloneda,munda,2021-07-08,United States,IL,Rock Island,Cycloneda munda,Polished Lady Beetle
+Cycloneda munda	AUGIEENTB0000141,Chilocorus,stigma,2021-07-08,United States,IL,Rock Island,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTB0000139,Brachiacantha,ursina,2021-07-08,United States,IL,Rock Island,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000140,Psyllobora,vigintimaculata,2021-07-08,United States,IL,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000141,Chilocorus,stigma,2021-07-08,United States,IL,Rock Island,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTB0000142,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000143,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000144,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000145,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000146,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000147,Coccinella,septempunctata,2021-07-19,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000148,Coccinella,septempunctata,2021-07-19,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000149,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000150,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000151,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000176,Coleomegilla,maculata,2021-07-19,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000152,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000153,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000177,Coleomegilla,maculata,2021-07-19,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000154,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000178,Coleomegilla,maculata,2021-07-19,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000155,Hippodamia,variegata,2021-07-19,United States,Iowa,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000156,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000157,Hippodamia,parenthesis,2021-07-19,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000158,Cycloneda,munda,2021-07-19,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000179,Coleomegilla,maculata,2021-07-19,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000159,Harmonia,axyridis,2021-07-20,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000180,Cycloneda,munda,2021-07-19,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000181,Harmonia,axyridis,2021-07-19,United States,IA,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000160,Harmonia,axyridis,2021-07-20,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000161,Harmonia,axyridis,2021-07-20,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000182,Harmonia,axyridis,2021-07-20,United States,IL,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000162,Harmonia,axyridis,2021-07-20,United States,IL,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000163,Harmonia,axyridis,2021-07-20,United States,IL,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000164,Harmonia,axyridis,2021-07-20,United States,IL,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000165,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000166,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000167,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000168,Propylea,quatuordecimpunctata,2021-07-19,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000169,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000170,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000171,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000172,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000173,Harmonia,axyridis,2021-07-19,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000174,Cycloneda,munda,2021-07-19,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000175,Hippodamia,convergens,2021-07-19,United States,Iowa,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000183,Coccinella,septempunctata,2021-07-19,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000184,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000185,Chilocorus,stigma,2021-07-19,United States,Iowa,Scott,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTB0000186,Coleomegilla,maculata,2021-07-19,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000187,Cycloneda,munda,2021-07-20,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000188,Cycloneda,munda,2021-07-20,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000189,Propylea,quatuordecimpunctata,2021-07-20,United States,Illinois,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000190,Brachiacantha,ursina,2021-07-19,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000191,Brachiacantha,ursina,2021-07-20,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000192,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000193,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000194,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000195,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000196,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000197,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000198,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000199,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000200,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000201,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000202,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000203,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000204,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000205,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000206,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000207,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000208,Harmonia,axyridis,2021-07-21,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000209,Coccinella,septempunctata,2021-07-21,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000210,Coccinella,septempunctata,2021-07-21,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000211,Coccinella,septempunctata,2021-07-21,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000212,Coccinella,septempunctata,2021-07-21,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000213,Cycloneda,munda,2021-07-21,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000214,Hippodamia,parenthesis,2021-07-21,United States,Illinois,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000215,Propylea,quatuordecimpunctata,2021-07-21,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000216,Hippodamia,parenthesis,2021-07-21,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000217,Cycloneda,munda,2021-07-21,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000218,Psyllobora,vigintimaculata,2021-07-21,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000219,Cycloneda,munda,2021-07-21,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000220,Harmonia,axyridis,2021-07-21,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000221,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000222,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000223,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000224,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000225,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000226,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000227,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000228,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000229,Coleomegilla,maculata,2021-07-21,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000232,Coleomegilla,maculata,2021-07-21,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000231,Harmonia,axyridis,2021-07-21,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000233,Brachiacantha,ursina,2021-07-19,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000249,Harmonia,axyridis,2021-08-03,United States,IA,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000250,Coleomegilla,maculata,2021-08-03,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000251,Cycloneda,munda,2021-08-03,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000252,Cycloneda,munda,2021-08-03,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000253,Harmonia,axyridis,2021-08-03,United States,IA,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000254,Chilocorus,stigma,2021-08-03,United States,IA,Scott,Chilocorus stigma,Twice Stabbed Ladybug
+AUGIEENTB0000246,Coccinella,septempunctata,2021-08-03,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000255,Cycloneda,munda,2021-08-03,United States,IA,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000247,Coccinella,septempunctata,2021-08-03,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000248,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000236,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000237,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000238,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000239,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000256,Coleomegilla,maculata,2021-08-03,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000240,Cycloneda,munda,2021-08-03,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB000257,Hippodamia,convergens,2021-08-03,United States,IA,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000241,Coccinella,septempunctata,2021-08-03,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000242,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000243,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000244,Hippodamia,parenthesis,2021-08-03,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000258,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000245,Propylea,quatuordecimpunctata,2021-08-03,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000259,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000269,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000260,Propylea,quatuordecimpunctata,2021-08-03,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000270,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000271,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000235,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000261,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000262,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000262,NA,NA,2021-08-03,United States,Iowa,Scott,Na na,Unknown
+AUGIEENTB0000263,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000264,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000265,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000266,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000267,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000268,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000281,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000282,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000283,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000284,Brachiacantha,ursina,2021-08-03,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000272,Coleomegilla,maculata,2021-08-03,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000273,Coleomegilla,maculata,2021-08-03,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000274,Coleomegilla,maculata,2021-08-03,United States,IA,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000285,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000275,Hippodamia,variegata,2021-08-03,United States,IA,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000286,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000276,Hippodamia,convergens,2021-08-03,United States,IA,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000287,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000288,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000289,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000290,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000291,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000292,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000296,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000297,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000277,Hippodamia,parenthesis,2021-08-03,United States,IA,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000298,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000278,Hippodamia,variegata,2021-08-03,United States,IA,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000299,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000279,Hippodamia,parenthesis,2021-08-03,United States,IA,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000300,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000280,Hippodamia,variegata,2021-08-03,United States,IA,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000301,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000293,Hippodamia,variegata,2021-08-03,United States,IA,Scott,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000302,Harmonia,axyridis,2021-08-03,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000294,Propylea,quatuordecimpunctata,2021-08-03,United States,IA,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000303,Propylea,quatuordecimpunctata,2021-08-03,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000295,Propylea,quatuordecimpunctata,2021-08-03,United States,IA,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000304,Coleomegilla,maculata,2021-08-03,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000305,Cycloneda,munda,2021-08-03,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000306,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000307,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000308,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000309,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000310,Psyllobora,vigintimaculata,2021-08-04,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000311,Psyllobora,vigintimaculata,2021-08-04,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000312,Psyllobora,vigintimaculata,2021-08-04,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000313,Propylea,quatuordecimpunctata,2021-08-04,United States,Illinois,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000314,Psyllobora,vigintimaculata,2021-08-04,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000315,Cycloneda,munda,2021-08-04,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000316,Cycloneda,munda,2021-08-04,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000318,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000319,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000320,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000321,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000322,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000323,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000324,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000325,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000326,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000327,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000328,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000329,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000330,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000331,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000332,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000333,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000344,Coleomegilla,maculata,2021-08-04,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000334,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000345,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000335,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000346,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000336,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000347,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000337,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000348,Harmonia,axyridis,2021-08-04,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000338,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000339,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000349,Propylea,quatuordecimpunctata,2021-08-04,United States,Illinois,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000340,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000350,Propylea,quatuordecimpunctata,2021-08-04,United States,Illinois,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000341,Hippodamia,convergens,2021-08-05,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000342,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000343,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000351,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000352,Hippodamia,convergens,2021-08-05,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000353,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000354,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000355,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000356,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000357,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000358,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000359,Harmonia,axyridis,2021-08-05,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000360,Coccinella,septempunctata,2021-08-05,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000361,Coccinella,septempunctata,2021-08-05,United States,Illinois,Rock Island,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000362,Hippodamia,convergens,2021-08-05,United States,Illinois,Rock Island,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000363,Hippodamia,parenthesis,2021-08-05,United States,Illinois,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000234,Coleomegilla,maculata,2021-07-20,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000002,Coleomegilla,maculata,2021-06-23,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000230,Hippodamia,variegata,2021-07-21,United States,Illinois,Rock Island,Hippodamia variegata,Adonis Ladybird
+AUGIEENTB0000365,Cycloneda,munda,2021-08-05,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000364,Coleomegilla,maculata,2021-08-05,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000367,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000368,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000369,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000370,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000366,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000374,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000372,Coleomegilla,maculata,2021-08-05,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000373,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000371,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000375,NA,NA,2021-08-05,United States,Illinois,Rock Island,Na na,Unknown
+AUGIEENTB0000376,Coccinella,septempunctata,2021-08-17,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000377,Coccinella,septempunctata,2021-08-17,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000378,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000379,Hippodamia,parenthesis,2021-08-17,United States,Iowa,Scott,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000380,Propylea,quatuordecimpunctata,2021-08-17,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000381,Propylea,quatuordecimpunctata,2021-08-17,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000382,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000383,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000384,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+NA,NA,NA,2021-08-17,United States,Iowa,Scott,Na na,Unknown
+AUGIEENTB0000385,Coleomegilla,maculata,2021-08-17,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000386,Propylea,quatuordecimpunctata,2021-08-17,United States,Iowa,Scott,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000387,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000388,Psyllobora,vigintimaculata,2021-08-17,United States,Iowa,Scott,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000389,Psyllobora,vigintimaculata,2021-08-17,United States,Iowa,Scott,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000390,Hippodamia,convergens,2021-08-17,United States,Iowa,Scott,Hippodamia convergens,Convergent Lady Beetle
+AUGIEENTB0000391,Coleomegilla,maculata,2021-08-17,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000392,Brachiacantha,ursina,2021-08-17,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000393,Brachiacantha,ursina,2021-08-17,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000394,Brachiacantha,ursina,2021-08-17,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000395,Brachiacantha,ursina,2021-08-17,United States,Iowa,Scott,Brachiacantha ursina,Ursine Spurleg Lady Beetle
+AUGIEENTB0000396,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000397,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000398,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000399,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000400,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000401,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000402,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000403,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000404,NA,NA,2021-08-17,United States,Iowa,Scott,Na na,Unknown
+AUGIEENTB0000405,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000406,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000407,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000408,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000409,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000410,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000411,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000412,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000413,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000414,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000415,Psyllobora,vigintimaculata,2021-08-17,United States,Iowa,Scott,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000416,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000417,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000418,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000419,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000420,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000421,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000422,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000423,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000424,Coleomegilla,maculata,2021-08-17,United States,Iowa,Scott,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000425,Coccinella,septempunctata,2021-08-17,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000426,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000427,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000428,Coccinella,septempunctata,2021-08-17,United States,Iowa,Scott,Coccinella septempunctata,Seven-Spot Ladybird
+AUGIEENTB0000429,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000430,Harmonia,axyridis,2021-08-17,United States,Iowa,Scott,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000431,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000432,Cycloneda,munda,2021-08-17,United States,Iowa,Scott,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000433,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000434,Hippodamia,parenthesis,2021-08-18,United States,Illinois,Rock Island,Hippodamia parenthesis,Parentheses Lady Beetle
+AUGIEENTB0000435,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000441,Coleomegilla,maculata,2021-08-18,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000442,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000436,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000437,Coleomegilla,maculata,2021-08-18,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000438,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000439,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000440,Coleomegilla,maculata,2021-08-18,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000443,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000444,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000445,Coleomegilla,maculata,2021-08-18,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000447,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000448,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000449,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000450,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000451,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000455,Hyperaspis,undulata,2021-08-18,United States,Illinois,Rock Island,Hyperaspis undulata,Undulate Lady Beetle
+AUGIEENTB0000452,Harmonia,axyridis,2021-08-18,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle
+AUGIEENTB0000453,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000454,Propylea,quatuordecimpunctata,2021-08-18,United States,Illinois,Rock Island,Propylea quatuordecimpunctata,Fourteen-spotted Ladybug
+AUGIEENTB0000501,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000502,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000503,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000504,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000505,Coleomegilla,maculata,2021-08-18,United States,Illinois,Rock Island,Coleomegilla maculata,Spotted Lady Beetle
+AUGIEENTB0000506,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000507,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000508,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000509,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000510,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000511,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000512,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000513,Psyllobora,vigintimaculata,2021-08-18,United States,Illinois,Rock Island,Psyllobora vigintimaculata,Twenty-spotted Lady Beetle
+AUGIEENTB0000514,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000515,Cycloneda,munda,2021-08-18,United States,Illinois,Rock Island,Cycloneda munda,Polished Lady Beetle
+AUGIEENTB0000517,Harmonia,axyridis,2021-08-19,United States,Illinois,Rock Island,Harmonia axyridis,Asain Lady Beetle

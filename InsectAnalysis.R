@@ -1,153 +1,69 @@
 library(tidyverse)
 library(shiny)
 library(party)
-library(ggplot2)
+library(magrittr)
 rm(list = ls())
 
-df_clean_ladybug_analysis <- read.csv("Data/CleanLadyBugData.csv")
+df_clean_ladybug_analysis <- read.csv("Data/CleanLadyBugData.csv",) %>%
+  mutate(eventDate = as.Date(eventDate))
 df_clean_ladybug_species_analysis <- read.csv("Data/CleanLadyBugSpeciesData.csv")
+
+options(scipen = 999)
 
 df_joined_ladybug_dataframes <- df_clean_ladybug_analysis %>%
   left_join(df_clean_ladybug_species_analysis, by =c("catalogNumber")) %>%
   mutate(plotType = ifelse(is.na(plotType), "Unknown", plotType))
 
-df_plotType_LPPR <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-PR") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPPR_data <- data.frame(x_axis = df_plotType_LPPR$species,  
-                                 y_axis = df_plotType_LPPR$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPPR_ggp <- ggplot(plotType_LPPR_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity") +
-  scale_y_continuous(trans = "log10")
-
-plotType_LPPR_ggp <- plotType_LPPR_ggp + labs(title = "LP-PR (Prairie Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPPR_ggp +  coord_flip() 
-
-df_plotType_LPIC <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-IC") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-df_plotType_LPIC <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-IC") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPIC_data <- data.frame(x_axis = df_plotType_LPIC$species,  
-                                 y_axis = df_plotType_LPIC$speciesPerPlot)
+df_plotType_by_species <- df_joined_ladybug_dataframes %>%
+  select(commonName, plotType) %>%
+  group_by(commonName, plotType) %>%
+  summarise(count = length(commonName)) %>%
+  mutate(environment = ifelse(plotType == "LP-AG", "Agricultural","Unknown")) %>%
+  mutate(environment = ifelse(plotType == "LP-GA", "Garden",environment)) %>%
+  mutate(environment = ifelse(plotType == "LP-GF", "Forested",environment)) %>%
+  mutate(environment = ifelse(plotType == "LP-GM", "Mowed Grass",environment)) %>%
+  mutate(environment = ifelse(plotType == "LP-GU", "Unmowed Grass",environment)) %>%
+  mutate(environment = ifelse(plotType == "LP-IC", "Industrial",environment)) %>%
+  mutate(environment = ifelse(plotType == "LP-PR", "Prairie",environment)) %>%
+  filter(plotType != "Unknown")
 
 # bar is created with the help of
 # grom_bar() and ggplot() function
-plotType_LPIC_ggp <- ggplot(plotType_LPIC_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
+plotType_by_species_ggp <- (ggplot(df_plotType_by_species, aes(commonName, count, fill = environment)) +   
+  geom_col(stat = "identity", aes(y=log(count))) +
+  scale_fill_brewer(palette = "Paired", direction = -1) +
+  theme_dark() +
+  coord_flip() +
+  labs(title = "Environments Per Species", x = "Ladybug Species", y = "Count of Species")) %T>%
+  plot()
 
-plotType_LPIC_ggp <- plotType_LPIC_ggp + labs(title = "LP-IC (Industrial Environment)", x = "Ladybug Species", y = "Count of Species")
+df_species_by_month <- df_joined_ladybug_dataframes %>%
+  select(eventDate,commonName) %>%
+  group_by(commonName, eventDate) %>%
+  summarise(count = length(commonName))
 
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPIC_ggp +  coord_flip() 
+species_by_month_ggp <- (ggplot(df_species_by_month, aes(commonName, lubridate::yday(x = eventDate))) +   
+  geom_boxplot(stat = "boxplot", position = "dodge2") +
+  scale_fill_brewer(palette = "Paired", direction = -1) +
+  theme_dark() +
+  coord_flip() +
+  labs(title = "Species Most ", x = "Ladybug Species", y = "Count of Species")) %T>%
+  plot()
 
-df_plotType_LPGU <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-GU") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
+df_plots_by_month <- df_joined_ladybug_dataframes %>%
+  select(eventDate,commonName) %>%
+  mutate(eventDate = substr(eventDate, 0, regexpr("-", eventDate)-1)) %>%
+  mutate(eventDate = substr(eventDate, regexpr("-", eventDate)-4, length(eventDate))) %>%
+  #mutate(eventDate = as.POSIXlt.character(eventDate)) %>%
+  group_by(eventDate, commonName) %>%
+  summarise(count = length(commonName)) 
 
-plotType_LPGU_data <- data.frame(x_axis = df_plotType_LPGU$species,  
-                                 y_axis = df_plotType_LPGU$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPGU_ggp <- ggplot(plotType_LPGU_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
-
-plotType_LPGU_ggp <- plotType_LPGU_ggp + labs(title = "LP-GU (Unmowed Grass Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPGU_ggp +  coord_flip() 
-
-df_plotType_LPGM <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-GM") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPGM_data <- data.frame(x_axis = df_plotType_LPGM$species,  
-                                 y_axis = df_plotType_LPGM$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPGM_ggp <- ggplot(plotType_LPGM_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
-
-plotType_LPGM_ggp <- plotType_LPGM_ggp + labs(title = "LP-GM (Mowed Grass Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPGM_ggp +  coord_flip() 
-
-df_plotType_LPGF <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-GF") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPGF_data <- data.frame(x_axis = df_plotType_LPGF$species,  
-                                 y_axis = df_plotType_LPGF$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPGF_ggp <- ggplot(plotType_LPGF_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
-
-plotType_LPGF_ggp <- plotType_LPGF_ggp + labs(title = "LP-GF (Forested Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPGF_ggp +  coord_flip() 
-
-df_plotType_LPGA <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-GA") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPGA_data <- data.frame(x_axis = df_plotType_LPGA$species,  
-                                 y_axis = df_plotType_LPGA$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPGA_ggp <- ggplot(plotType_LPGA_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
-
-plotType_LPGA_ggp <- plotType_LPGA_ggp + labs(title = "LP-GA (Garden Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPGA_ggp +  coord_flip() 
-
-df_plotType_LPAG <- df_joined_ladybug_dataframes %>%
-  filter(plotType != "LP-AG") %>%
-  count(species) %>%
-  rename(speciesPerPlot = n)
-
-plotType_LPAG_data <- data.frame(x_axis = df_plotType_LPAG$species,  
-                                 y_axis = df_plotType_LPAG$speciesPerPlot)
-
-# bar is created with the help of
-# grom_bar() and ggplot() function
-plotType_LPAG_ggp <- ggplot(plotType_LPAG_data, aes(x_axis, y_axis, fill = y_axis)) +   
-  geom_bar(stat = "identity")
-
-plotType_LPAG_ggp <- plotType_LPAG_ggp + labs(title = "LP-AG (Agricultural Environment)", x = "Ladybug Species", y = "Count of Species")
-
-# complete graph get flipped with the
-# help of coord_flip() function
-plotType_LPAG_ggp +  coord_flip() 
+plots_by_month_ggp <- (ggplot(df_plots_by_month, aes(, count, fill = county)) +   
+                           geom_boxplot(stat = "boxplot", position = "dodge2", aes(y=log(count))) +
+                           scale_fill_brewer(palette = "Paired", direction = -1) +
+                           theme_dark() +
+                           coord_flip() +
+                           labs(title = "Months Per Species", x = "Ladybug Species", y = "Count of Species")) %T>%
+  plot()
 
 

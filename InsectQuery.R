@@ -89,10 +89,9 @@ df_clean_ladybug <- df_ladybug %>%
 
 df_clean_ladybug_species <- df_ladybug_species %>%
   select(catalogNumber, Species, coordinates, plotType) %>%
-  mutate(plotType =substr(plotType, 0, regexpr("-", plotType)+2)) %>%
+  mutate(plotType = substr(plotType, 0, regexpr("-", plotType)+2)) %>%
   mutate(ifelse(plotType == "Lp-PR", "LP-PR", plotType))
 
-  
 # Butterflies
 
 df_butter_location <- df_butterfly %>%
@@ -131,9 +130,11 @@ df_clean_butter <- df_butter_date %>%
   left_join(df_butter_stats, by = "coreId") %>%
   left_join(df_butter_location, by = "coreId")
 
-write.csv(df_clean_ladybug,"Data/Clean/Ladybug.csv")
-write.csv(df_clean_ladybug_species, "Data/Clean/LadybugSpecies.csv")
-write.csv(df_clean_butter, "Data/Clean/Butterfly.csv")
+
+
+write_csv(df_clean_ladybug,"Data/Clean/Ladybug.csv")
+write_csv(df_clean_ladybug_species, "Data/Clean/LadybugSpecies.csv")
+write_csv(df_clean_butter, "Data/Clean/Butterfly.csv")
 
 # Test cases
 # 
@@ -153,9 +154,4 @@ write.csv(df_clean_butter, "Data/Clean/Butterfly.csv")
 #   paste0("catalogNumber is distinct in df_ladybug_species: " , .)
 # 
 # (nrow(full_join(df_ladybug, df_ladybug_species, "catalogNumber")) == nrow(df_ladybug)) %>%
-#   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)
-
-write.csv(df_clean_ladybug,"Data/CleanLadyBugData.csv")
-write.csv(df_clean_ladybug_species, "Data/CleanLadyBugSpeciesData.csv")
-
 #   paste0("All observations in df_ladybug_species occur in df_ladybug: ", .)

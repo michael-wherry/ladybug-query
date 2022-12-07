@@ -46,8 +46,11 @@ species_by_month_ggp <- (ggplot(df_species_by_month, aes(commonName, lubridate::
   geom_boxplot(stat = "boxplot", position = "dodge2") +
   scale_fill_brewer(palette = "Paired", direction = -1) +
   theme_dark() +
+  scale_y_continuous(limits = c(0, 365),
+                     breaks = c(31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365), 
+                     labels = c("Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec")) +
   coord_flip() +
-  labs(title = "Species Most ", x = "Ladybug Species", y = "Count of Species")) %T>%
+  labs(title = "Observations Over Time", x = "Ladybug Species", y = "Observation Date")) %T>%
   plot()
 
 df_plots_by_month <- df_joined_ladybug_dataframes %>%

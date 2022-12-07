@@ -60,13 +60,3 @@ df_plots_by_month <- df_joined_ladybug_dataframes %>%
   #mutate(eventDate = as.POSIXlt.character(eventDate)) %>%
   group_by(eventDate, commonName) %>%
   summarise(count = length(commonName)) 
-
-plots_by_month_ggp <- (ggplot(df_plots_by_month, aes(, count, fill = county)) +   
-                           geom_boxplot(stat = "boxplot", position = "dodge2", aes(y=log(count))) +
-                           scale_fill_brewer(palette = "Paired", direction = -1) +
-                           theme_dark() +
-                           coord_flip() +
-                           labs(title = "Months Per Species", x = "Ladybug Species", y = "Count of Species")) %T>%
-  plot()
-
-

@@ -1,6 +1,10 @@
+library(tidyverse)
+library(readxl)
+rm(list = ls())
+
+na_placeholders <- c("", "//s+","N/A", "n/a","N/a", "n/A", "NA", "UNKNOWN", "unknown")
 df_scanned_ladybug <- read.csv("Data/Unclean/ScanLadybugData.csv", na.strings = na_placeholders)
 df_scanned_ladybug_species <- read_xlsx("Data/Unclean/Ladybug Data.xlsx", .name_repair = "universal", na = na_placeholders) 
-
 rm(na_placeholders)
 
 # Renaming all columns to camelCase for consistency

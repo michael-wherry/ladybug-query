@@ -7,7 +7,7 @@ Students.
 
 # Questions we asked of our data
 **1) How were species represented acrossed the different environments surveyed?**
-  * To answer this we used a stacked bar chart created with the code *
+  * To answer this we used a stacked bar chart created with the code
 
   ``` r
   plotType_by_species_ggp <- (ggplot(df_species_plotTypes, aes(commonName, speciesCount, fill = environment)) +   
@@ -90,11 +90,11 @@ t.test(df_count_plotType$countPlotType)
 The Results of the one sample T-Test:
 
 data:  df_count_plotType$countPlotType
-t = 5.2268, df = 6, p-value = 0.001963
+**t = 5.2268, df = 6, p-value = 0.001963
 alternative hypothesis: true mean is not equal to 0
      95 percent confidence interval:
           37.76126 104.23874
-sample estimates: mean of x 71 
+sample estimates: mean of x 71** 
 
 * As we can see the plot types does have a significant difference on how many lady bugs you are able to find
 * This adds extra value to our visuals

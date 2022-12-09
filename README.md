@@ -6,7 +6,7 @@ LadybugAnalysis was used to take in the cleaned data and then create visuals and
 Students.
 
 # Questions we asked of our data
-1) How were species represented acrossed the different environments surveyed?
+**1) How were species represented acrossed the different environments surveyed?**
   * To answer this we used a stacked bar chart created with the code *
 
   ``` r
@@ -26,7 +26,7 @@ Students.
 * This shows that what proportions of each species was found in which environment
 * We also see that the species with the fewest observations did not boast a diverse list of environments
     
-2) What months were responsible for the largest proportions of each species?
+**2) What months were responsible for the largest proportions of each species?**
   * To answer this we used a boxplot created with the code 
   ```r
   species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate))) +   
@@ -46,7 +46,7 @@ Students.
   <img src="images/Question 2 Visual.png" alt="Question 2 Visual" width="600" height="300">
   
   * This shows in what months / time of months the greatest proportion of each species was collected
-3) When was each plot the most useful over the course of the research?
+**3) When was each plot the most useful over the course of the research?**
   * To answer this we used a line chart as well as an area chart which were created with the code
   ```r
   plotType_activity_line <- (ggplot(df_plotType_months_activity, aes(x = month, y = countMonth, color = plotType))  +

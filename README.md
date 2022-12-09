@@ -1,8 +1,8 @@
 # LadybugQuery.R
-An R query built upon a dataset of ladybugs collected by students at Augustana College. Created for DATA-331.
+An R query built upon a dataset of ladybugs collected by students at Augustana College. This query was used to clean all of the data in the dataset for later use
 
 # LadybugAnalysis.R
-LadybugAnalysis was used to take in the cleaned data and then create visuals and a t test that help us gain valuable insight on the research conducted by our fellow Augustana
+LadybugAnalysis was used to take in the cleaned data from LadybugQuery.R and then create visuals and a t test that help us gain valuable insight on the research conducted by our fellow Augustana
 Students.
 
 # Questions we asked of our data

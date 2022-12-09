@@ -1,5 +1,5 @@
 library(tidyverse)
-library(shiny)
+library(patchwork)
 library(party)
 library(magrittr)
 rm(list = ls())
@@ -90,14 +90,24 @@ df_plotType_months_activity <- df_plotType_months %>%
   left_join(df_month_activity, by = c("plotType", "month")) %>%
   mutate(countMonth = replace_na(countMonth, 0))
 
-plotType_activity_ggp <- (ggplot(df_plotType_months_activity, aes(x = month, y = countMonth, color = plotType))  +
-  geom_line() +
+plotType_activity_line <- (ggplot(df_plotType_months_activity, aes(x = month, y = countMonth, color = plotType))  +
+  geom_line(show.legend = FALSE) +
   scale_x_continuous(limits = c(0, 12),
                      breaks = c(1,2,3,4,5,6,7,8,9,10,11,12), 
                      labels = c("Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec")) +
   theme_dark() +
-  labs(title = "Agricultural Plot Recordings Over Time", y = "Ladybug Recordings", x = "Observation Dates")) %T>%
-  plot()
+  labs(title = "Plot Recordings Over Time", x = "Observation Dates", y = "Ladybug Recordings")) 
+
+plotType_activity_area <- (ggplot(df_plotType_months_activity, aes(x = month, y = countMonth, color = plotType))  +
+                            geom_area(aes(fill = plotType)) +
+                            scale_x_continuous(limits = c(0, 12),
+                                               breaks = c(1,2,3,4,5,6,7,8,9,10,11,12), 
+                                               labels = c("Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec")) +
+                            theme_dark() +
+                            labs(y = "Ladybug Recordings", x = "Observation Dates", legend = "Plot Type"))
+
+plot(plotType_activity_line / plotType_activity_area)
+
 
 # t test to see if the plotType had an any discernible impact
 # on how many ladybugs they were able to find during their studies

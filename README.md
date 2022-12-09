@@ -1,7 +1,7 @@
-# LadybugQuery
+# LadybugQuery.R
 An R query built upon a dataset of ladybugs collected by students at Augustana College. Created for DATA-331.
 
-# LadybugAnalysis
+# LadybugAnalysis.R
 LadybugAnalysis was used to take in the cleaned data and then create visuals and a t test that help us gain valuable insight on the research conducted by our fellow Augustana
 Students.
 
@@ -24,7 +24,7 @@ Students.
   <img src="images/Question 1 Visual.png" alt="Question 1 Visual" width="600" height="300">
   
 * This shows that what proportions of each species was found in which environment
-* We also see that the species with the fewest observations did not boast a diverse list of environments
+* This helps us to better understands the species of ladybugs within our research and what environments they reside within the most
     
 **2) What months were responsible for the largest proportions of each species?**
   * To answer this we used a boxplot created with the code 
@@ -45,7 +45,8 @@ Students.
   
   <img src="images/Question 2 Visual.png" alt="Question 2 Visual" width="600" height="300">
   
-  * This shows in what months / time of months the greatest proportion of each species was collected
+  * This shows in what months / time of months the greatest proportion of each species was collected and when paired with the findings
+    from Question 1 we now have a better understanding of where and when these species of ladybugs are most active
 **3) When was each plot the most useful over the course of the research?**
   * To answer this we used a line chart as well as an area chart which were created with the code
   ```r
@@ -73,6 +74,8 @@ Students.
   
   * This shows how each plot type performed through the months and compares each ones performance against one another
   * We see that the Industrial (LP-IC) and Unmowed Grass (LP-GU) environments performed the best amongst all of the environments
+  * When paired with the results of the first two questions our researchers now have a better understanding of the where and when these species 
+    are moving they are now able to leverage this with when each plot is the most useful so they can now be more effective in their collection practices
 
 # T-Test
 Based on our visualizations we wanted to see if the plotType used to collect the ladybugs

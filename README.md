@@ -47,6 +47,7 @@ Students.
   
   * This shows in what months / time of months the greatest proportion of each species was collected and when paired with the findings
     from Question 1 we now have a better understanding of where and when these species of ladybugs are most active
+    
 **3) When was each plot the most useful over the course of the research?**
   * To answer this we used a line chart as well as an area chart which were created with the code
   ```r

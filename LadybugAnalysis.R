@@ -106,7 +106,7 @@ plotType_activity_area <- (ggplot(df_plotType_months_activity, aes(x = month, y 
                             theme_dark() +
                             labs(y = "Ladybug Recordings", x = "Observation Dates", legend = "Plot Type"))
 
-plot(plotType_activity_line / plotType_activity_area)
+plot(plotType_activity_line / plotType_activity_area) 
 
 
 # t test to see if the plotType had an any discernible impact

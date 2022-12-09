@@ -72,7 +72,7 @@ Students.
   <img src="images/Question 3 Visual.png" alt="Question 3 Visual" width="600" height="300">
   
   * This shows how each plot type performed through the months and compares each ones performance against one another
-  * We see that the Industrial and Unmowed Grass environments performed the best amongst all of the environments
+  * We see that the Industrial (LP-IC) and Unmowed Grass (LP-GU) environments performed the best amongst all of the environments
 
 # T-Test
 Based on our visualizations we wanted to see if the plotType used to collect the ladybugs

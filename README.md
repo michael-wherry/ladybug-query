@@ -29,9 +29,8 @@ Students.
 **2) What months were responsible for the largest proportions of each species?**
   * To answer this we used a boxplot created with the code 
   ```r
-  species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate))) +   
-  geom_boxplot(stat = "boxplot", position = "dodge2") +
-  scale_fill_brewer(palette = "Paired", direction = -1) +
+  species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate), fill = commonName)) +   
+  geom_boxplot(stat = "boxplot", position = "dodge2", show.legend = FALSE) +
   theme_dark() +
   scale_y_continuous(limits = c(0, 365),
                      breaks = c(31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365), 

@@ -51,9 +51,8 @@ df_species_months <- df_joined_ladybug_dataframes %>%
 
 # boxplot is created with the help of 
 # geom_boxplot() and ggplot()
-species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate))) +   
+species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate), fill = commonName)) +   
   geom_boxplot(stat = "boxplot", position = "dodge2") +
-  scale_fill_brewer(palette = "Paired", direction = -1) +
   theme_dark() +
   scale_y_continuous(limits = c(0, 365),
                      breaks = c(31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365), 
@@ -79,7 +78,6 @@ df_plotType_months <- as.data.frame(cbind(c("LP-AG", "LP-GA", "LP-GF","LP-GM", "
   mutate(month = 1 + as.integer(month) %% 12) %>%
   arrange(plotType, month)
 
-# Agricultural environments activity
 df_month_activity <- df_joined_ladybug_dataframes %>%
   select(plotType, eventDate) %>%
   mutate(month = lubridate::month(eventDate)) %>%

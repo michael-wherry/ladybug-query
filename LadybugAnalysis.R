@@ -53,7 +53,7 @@ df_species_months <- df_joined_ladybug_dataframes %>%
 # geom_boxplot() and ggplot()
 species_months_ggp <- (ggplot(df_species_months, aes(commonName, lubridate::yday(x = eventDate), fill = commonName)) +   
   geom_boxplot(stat = "boxplot", position = "dodge2") +
-  theme_dark() +
+  theme_dark() + 
   scale_y_continuous(limits = c(0, 365),
                      breaks = c(31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365), 
                      labels = c("Jan", "Feb", "Mar", "April", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec")) +
